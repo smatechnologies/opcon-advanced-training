@@ -1,4 +1,4 @@
-# SMA OpCon Windows Agent Docs
+# SMA OpCon Advanced Training
 
 This repository contains the content behind the SMA OpCon Advanced training hosted at <https://help.smatechnologies.com/training/opcon-advanced/>.
 
