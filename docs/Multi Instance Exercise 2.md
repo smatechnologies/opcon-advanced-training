@@ -7,7 +7,7 @@ hide_title: 'false'
 
 1. Open the **Schedule Master** with the **MY FIRST MULTI-INSTANCE SCHEDULE** selected and click the **Instance Definition** tab.
 2. Click on the ```TIME=10``` Property in the **Instance** grid at the bottom of the screen.
-3. In **Define Property Values**, update ```TIME=10``` to ```TIME=10;Path=C\Multi-Instance\Accounting```
+3. In **Define Property Values**, update ```TIME=10``` to ```TIME=10;Path=C:\Multi-Instance\Accounting```
 4. Click the **Update** button.
 5. Change ```TIME=20``` to ```TIME=20;Path=C:\Multi-Instance\Accounting```
 6. Update the **Command Lines** for all 3 Jobs replacing ```C:\Multi-Instance\Accounting``` with ```[[SI.PATH]]```
