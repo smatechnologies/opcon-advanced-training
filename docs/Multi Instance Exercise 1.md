@@ -14,7 +14,7 @@ hide_title: 'false'
 * This will create a 2nd Instance Definition for the Property ```TIME```.
 7. Click the **Save** button on the Schedule Master toolbar.
 8. Move to the Job Master and create 3 Jobs with the following attributes:
-* **Command Line**: ```"C:\Multi_Instance\Accounting\Sleep.cmd" [[SI.TIME]]```
+* **Command Line**: ```"C:\Multi-Instance\Accounting\Sleep.cmd" [[SI.TIME]]```
 * **Frequency**:  
     MON-FRI-N  
 * Create a **Job Dependency** Chain setting the Jobs to run one at a time.
