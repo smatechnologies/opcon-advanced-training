@@ -93,5 +93,10 @@ module.exports = {
     'Special Topics Exercise 7',
   ],
 },
+{  
+  type: 'link',
+  label: 'Student Feedback Survey',
+  href: 'https://forms.office.com/r/qkfrtxKmGA',
+},
   ],
 };
