@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Special Topics Exercise 6'
+sidebar_label: 'Special Topics Exercise Chronoman'
 hide_title: 'false'
 ---
 
