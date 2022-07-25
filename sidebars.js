@@ -84,10 +84,9 @@ module.exports = {
     'Special Topics Exercise 3',
     'Frequency Dependencies And Events',
     'Special Topics Exercise 4',
+    'Calendar ADD Events',
     'Advanced Date Calculation',
     'Special Topics Exercise 5',
-    'Calendar ADD Events',
-    'Special Topics Exercise 6',
   ],
 },
 {  

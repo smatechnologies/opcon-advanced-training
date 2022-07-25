@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Special Topics Exercise 6'
+sidebar_label: 'Special Topics Exercise Chronoman with Calendars'
 hide_title: 'false'
 ---
 
-## Exercise 6 - Chronoman with Calendars
+## Exercise - Chronoman with Calendars
 
 1.	Create a different Calendar for each of the date calculations made in the previous exercise.
 2.	Update the Chronoman Jobs adding the ```$CALENDAR:ADD``` event to each.

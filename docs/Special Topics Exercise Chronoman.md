@@ -3,7 +3,7 @@ sidebar_label: 'Special Topics Exercise Chronoman'
 hide_title: 'false'
 ---
 
-## Exercise 6 - Chronoman
+## Exercise - Chronoman
 
 1.	Create a Schedule named **CHRONOMAN** with Monday-Friday as Work Days.
 2.	Update the Master Holiday Calendar, making sure normal holidays are present.
