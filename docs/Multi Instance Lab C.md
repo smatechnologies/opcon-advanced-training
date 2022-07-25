@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Multi Instance Lab C'
+sidebar_label: 'Multi Instance Lab C HIDDEN'
 hide_title: 'false'
 ---
 
