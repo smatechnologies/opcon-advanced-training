@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Multi Instance Lab D'
+sidebar_label: 'Multi Instance Lab C'
 hide_title: 'false'
 ---
 
-## LAB D
+## LAB C
 
 Update the Multi-Instance Schedule used in **LAB 1A** to use Named Instances. 
 
