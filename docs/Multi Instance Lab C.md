@@ -1,34 +1,44 @@
 ---
-sidebar_label: 'Multi Instance Lab C HIDDEN'
+sidebar_label: 'Multi Instance Lab D'
 hide_title: 'false'
 ---
 
-## Lab C
+## LAB D
 
-There are several Jobs within Congo Online Retail’s morning process that require the number of bytes of a specific report. 
+Update the Multi-Instance Schedule used in **LAB 1A** to use Named Instances. 
 
-There is a different report for each U. S. Warehouse. 
+Delete the current **Schedule Instance Property** before you can update the Schedule to use Named Properties. 
 
-To avoid creating many unnecessary **Global Properties**, Congo Online Retail wants to use **Job Instance Properties** to store the file size.
+Reapply the **Schedule Instance Properties** to the proper instance. 
+Use all the same **Schedule Instance Properties** and name the Instance with the warehouse location.
 
-Create a **Multi-Instance Job** with an **Instance** for the same 6 warehouses used in the previous two labs.
+Job Patterns and Exceptions:
+  
+* **Atlanta**  
+    * **Job Pattern**: ```*```  
+     * **Exception**: Switch the Primary Machine to the SMAAdvanceTraining Machine.  
 
-The file sizes we are collecting are:
+* **New York**  
+    * **Job Pattern**: Match the Name given to the Job running the Timeout command.  
+    * **Exception**: Change the Job Build Status to “To Be Skipped”.
 
-```
-C:\Warehouses\Atlanta_Report.txt
-C:\Warehouses\Chicago_Report.txt
-C:\Warehouses\Houston_Report.txt
-C:\Warehouses\LosAngeles_Report.txt
-C:\Warehouses\NewYork_Report.txt
-C:\Warehouses\Seattle_Report.txt
-```
+* **Chicago**  
+    * **Job Pattern**: ```*```  
+    * **Exception**: Update the Job Start Offset to ```01:00``` instead of ```00:00```.
 
-Create the following ```Embedded Script``` using the ```Command Shell Type```. 
-This script will collect the file size and dump a ```$PROPERTY:ADD``` Event into ```MSGIN``` containing the value.
+* **Houston**  
+    * **Job Pattern**: ```*```  
+    * **Exception**: Update the Job Start Offset to ```01:00``` instead of ```00:00```.  
+    * **Exception**: Switch the Primary Machine to the SMAAdvanceTraining Machine.
 
-<a href="imgadvanced/1CScript.png" target="_blank"><img src="imgadvanced/1CScript.png" width="500"></img></a>  
+* **Los Angeles**  
+    * **Job Pattern**: ```*```  
+    * **Exception**: Update the Job Start Offset to ```03:00``` instead of ```00:00```.  
+    * **Exception**: Update the Windows User ID from SMATRAINING\SMAUSER to User Service Account.
 
-###### (Click Image to Enlarge)
+* **Seattle**  
+    * **Job Pattern**: ```*```  
+    * **Exception**: Update the Job Start Offset to ```03:00``` instead of ```00:00```.  
+    * **Exception**: Switch the Primary Machine to the SMAAdvanceTraining Machine.  
 
-At the end of the Schedule setup a **Notification** passing the Warehouse ID, City, and File Size collected.
+Build the Schedule and verify all Schedule Names, Start Times, Primary Machines, Build Statuses, and Batch Users for each Instance of the Schedule.

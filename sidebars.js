@@ -35,7 +35,7 @@ module.exports = {
         'Multi Instance Exercise 11',
         'SubSchedules External Events',
         'Multi Instance Exercise 12',
-        'Multi Instance Lab D'  
+        'Multi Instance Lab C'  
       ],
   },
   {
