@@ -31,7 +31,7 @@ C:\PropertyExpressions\PropertyExpressions_[[=ToUpper([[$SCHEDULE DATE mmm]])]].
 
 * **Source**:  
 ```
-C:\PropertyExpressions\PropertyExpressions_[[ToUpper([[$SCHEDULE DATE mmm]])]].txt
+C:\PropertyExpressions\PropertyExpressions_[[=ToUpper([[$SCHEDULE DATE mmm]])]].txt
 ```
 
 * **Destination**:  

@@ -16,7 +16,7 @@ Job Patterns and Exceptions:
   
 * **Atlanta**  
     * **Job Pattern**: ```*```  
-     * **Exception**: Switch the Primary Machine to the SMAAdvanceTraining Machine.  
+     * **Exception**: Switch the Primary Machine to the SMAAdvancedTraining Machine.  
 
 * **New York**  
     * **Job Pattern**: Match the Name given to the Job running the Timeout command.  
@@ -29,16 +29,16 @@ Job Patterns and Exceptions:
 * **Houston**  
     * **Job Pattern**: ```*```  
     * **Exception**: Update the Job Start Offset to ```01:00``` instead of ```00:00```.  
-    * **Exception**: Switch the Primary Machine to the SMAAdvanceTraining Machine.
+    * **Exception**: Switch the Primary Machine to the SMAAdvancedTraining Machine.
 
 * **Los Angeles**  
     * **Job Pattern**: ```*```  
     * **Exception**: Update the Job Start Offset to ```03:00``` instead of ```00:00```.  
-    * **Exception**: Update the Windows User ID from SMATRAINING\SMAUSER to User Service Account.
+    * **Exception**: Update the Windows User ID from SMATRAINING\SMAUSER to Use Service Account.
 
 * **Seattle**  
     * **Job Pattern**: ```*```  
     * **Exception**: Update the Job Start Offset to ```03:00``` instead of ```00:00```.  
-    * **Exception**: Switch the Primary Machine to the SMAAdvanceTraining Machine.  
+    * **Exception**: Switch the Primary Machine to the SMAAdvancedTraining Machine.  
 
 Build the Schedule and verify all Schedule Names, Start Times, Primary Machines, Build Statuses, and Batch Users for each Instance of the Schedule.
