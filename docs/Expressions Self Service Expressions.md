@@ -3,7 +3,7 @@ sidebar_label: 'Expressions Self Service Expressions'
 hide_title: 'false'
 ---
 
-## OpCon SMA Self Service Expressions
+### OpCon SMA Self Service Expressions
 
 Both the **Hide** and **Disable** features in SMA Self Service can be driven by Expressions
 
@@ -15,7 +15,27 @@ This allows multiple ways to disable buttons:
 
 The value of the Global Property must be set to true to release functionality
 
-<a href="imgadvanced/HideDisable1.png" target="_blank"><img src="imgadvanced/HideDisable1.png" width="500"></img></a>   
-<a href="imgadvanced/HideDisable2.png" target="_blank"><img src="imgadvanced/HideDisable2.png" width="500"></img></a>   
+![](../static/imgadvanced/self_service_expressiondisable1.png)
 
-###### (Click Images to Enlarge)
+![](../static/imgadvanced/Self_service_button_expressions1.png)
+ 
+![](../static/imgadvanced/self_service_expressiondisable2.png) 
+
+### Enterprise Manager
+
+<details>
+
+Both the **Hide** and **Disable** features in SMA Self Service can be driven by Expressions
+
+This allows multiple ways to disable buttons:  
+
+* Disable when a Button is pressed  
+* Disable all Buttons for a Department  
+* Disable all Buttons within SMA Self Service  
+
+The value of the Global Property must be set to true to release functionality
+
+![](../static/imgadvanced/HideDisable1.png)
+![](../static/imgadvanced/HideDisable2.png)
+
+</details>

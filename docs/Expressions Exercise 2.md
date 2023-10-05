@@ -3,7 +3,7 @@ sidebar_label: 'Expressions Exercise 2'
 hide_title: 'false'
 ---
 
-## Exercise 2 - Property Expressions: Arithmetic
+### Exercise 2 - Property Expressions: Arithmetic
 
 
 1.	In the ```C:\PropertyExpressions``` folder create the following files:

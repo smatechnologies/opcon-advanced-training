@@ -3,7 +3,7 @@ sidebar_label: 'Expressions Exercise 1'
 hide_title: 'false'
 ---
 
-## Exercise 1 - Property Expressions - ToUpper and ToLower
+### Exercise 1 - Property Expressions - ToUpper and ToLower
 
 1. Create the folder ```C:\PropertyExpressions``` on the OpCon Training Machine.
 2. Create a blank text file named ```PropertyExpressions.txt```

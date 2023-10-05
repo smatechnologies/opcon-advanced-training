@@ -3,7 +3,7 @@ sidebar_label: 'Expressions Exercise 3'
 hide_title: 'false'
 ---
 
-## Exercise 3 - Property Expressions - SubStrings
+### Exercise 3 - Property Expressions - SubStrings
 
 1.	Create a Global Property named ```[[SubStringExample]]``` with a value of: ```ACHAJ010123456789AIN202001011234.txt```
 2.	Create a Schedule named **Substring Schedule**.
@@ -13,3 +13,4 @@ hide_title: 'false'
 5.	Build the Schedule and verify that the proper file was created.
 6.	Update the source file name and the Global Property to: ```ACHAJ010123456789ZIN202001011234.txt```
 7.	Rerun the Job and verify that file ```ACH_Z.txt``` is created.
+

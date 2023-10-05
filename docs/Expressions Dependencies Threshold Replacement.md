@@ -3,12 +3,26 @@ sidebar_label: 'Expressions Dependencies Threshold Replacement'
 hide_title: 'false'
 ---
 
+
+expressiondependency_sm.png
+
 ## Expression Dependencies - Threshold Replacement
 
 Properties are **Strings** and **_NOT_** **Integers**
 
 It is necessary to convert a Property to Integer for an Expression to be true
 
-<a href="imgadvanced/ThreshReplace.png" target="_blank"><img src="imgadvanced/ThreshReplace.png" width="500"></img></a>
+![](../static/imgadvanced/expressiondependency_sm.png)
 
-###### (Click Image to Enlarge)
+
+### Enterprise Manager
+
+<details>
+
+Properties are **Strings** and **_NOT_** **Integers**
+
+It is necessary to convert a Property to Integer for an Expression to be true
+
+![](../static/imgadvanced/ThreshReplace.png)
+
+</details>

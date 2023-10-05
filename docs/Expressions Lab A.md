@@ -3,7 +3,7 @@ sidebar_label: 'Expressions Lab A'
 hide_title: 'false'
 ---
 
-## Advanced Expressions - Lab A
+### Advanced Expressions - Lab A
 
 A file named **“PropertyExpression_JAN_A_1234.txt”** needs to be collected and renamed the first 26 days of each month. 
 

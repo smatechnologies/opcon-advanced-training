@@ -3,7 +3,7 @@ sidebar_label: 'Expressions Exercise 8B'
 hide_title: 'false'
 ---
 
-## Exercise 8B - Expression Events: Multiple Time Windows
+### Exercise 8B - Expression Events: Multiple Time Windows
 
 1.	Create a Schedule named **Expression Events**.
 2.	Create a Job with Expression Events that will update a Property differently depending on what the current Time.

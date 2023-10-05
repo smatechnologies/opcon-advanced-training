@@ -3,7 +3,7 @@ sidebar_label: 'SubSchedules External Events'
 hide_title: 'false'
 ---
 
-## SubSchedules - External Events
+### SubSchedules - External Events
 
 ### SubSchedules - Schedule Instance Property Update
 

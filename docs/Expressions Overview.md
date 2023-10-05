@@ -12,4 +12,8 @@ hide_title: 'false'
 * Events - OpCon Events can be sent based on an Expression being true
 * SMA Self Service Buttons - Buttons can be hidden or disabled if an Expression is true
 
-##### *Opcon Expressions are based on .Net Expressions
+:::info Note
+
+Opcon Expressions are based on .Net Expressions
+
+:::

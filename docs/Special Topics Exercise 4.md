@@ -3,7 +3,7 @@ sidebar_label: 'Special Topics Exercise 4'
 hide_title: 'false'
 ---
 
-## Exercise 4 - Frequency Based Features
+### Exercise 4 - Frequency Based Features
 
 1.	Create a Schedule named **FREQUENCY FEATURES**.
 2.	Create 4 Jobs

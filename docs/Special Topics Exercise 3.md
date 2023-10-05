@@ -3,7 +3,7 @@ sidebar_label: 'Special Topics Exercise 3'
 hide_title: 'false'
 ---
 
-## Exercise 3 - Advanced Frequencies
+### Exercise 3 - Advanced Frequencies
 
 1.	Create a Schedule named **ADVANCED FREQUENCIES** with 5 Null Jobs.
 2.	Give 4 of the 5 Jobs a Frequency allowing them to run every day.

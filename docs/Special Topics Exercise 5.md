@@ -3,7 +3,7 @@ sidebar_label: 'Special Topics Exercise 5'
 hide_title: 'false'
 ---
 
-## Exercise 5 - System Date Offsets
+### Exercise 5 - System Date Offsets
 
 1.	Create a variation of the ```$SCHEDULE DATE``` Global Property to use in this exercise.
 2.	Create a Schedule named **DATE OFFSETS**.

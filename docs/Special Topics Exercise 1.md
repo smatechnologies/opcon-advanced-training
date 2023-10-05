@@ -3,7 +3,7 @@ sidebar_label: 'Special Topics Exercise 1'
 hide_title: 'false'
 ---
 
-## Exercise 1 - Advance Failure Criteria
+### Exercise 1 - Advance Failure Criteria
 
 1.	Create a Schedule named **ADVANCED FAILURE**.
 2.	Create a Job that runs ```genericp.exe``` every day.

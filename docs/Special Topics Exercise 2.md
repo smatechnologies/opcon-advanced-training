@@ -3,7 +3,7 @@ sidebar_label: 'Special Topics Exercise 2'
 hide_title: 'false'
 ---
 
-## Exercise 2 - Job Output Parsing
+### Exercise 2 - Job Output Parsing
 
 1.	Create a DOS script with the following Text:
 
