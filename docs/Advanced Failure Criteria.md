@@ -72,7 +72,7 @@ hide_title: 'false'
 ![](../static/imgadvanced/EventTriggerExitDescription.png)
 
 * Each Operating System has rules for Exit Description Names
-    * Unix - Use **Contains** unless the Full Exit Code is spelled out
+    * Unix - Use **Contains** unless the *Full Exit Code* is spelled out
     * Windows - Use the final number
         * ```100``` instead of ```000000000100```  
 
