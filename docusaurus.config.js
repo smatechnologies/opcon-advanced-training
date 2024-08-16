@@ -39,12 +39,10 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'), 
-      {
-        docsRouteBasePath: '/', 
-      }
-    ],
-  ],
+//  plugins: [
+//    [
+//      require.resolve('@cmfcmf/docusaurus-search-local'), 
+//      {}
+//    ],
+//  ],
 };
