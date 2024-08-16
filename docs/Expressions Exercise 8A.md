@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 8A'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 8A - Expression Dependency: Multiple Time Windows
 
 1.	Create a Global Property call ```[[FAKETIME]]``` with a value of ```0```.

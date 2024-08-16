@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 8B'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 8B - Expression Events: Multiple Time Windows
 
 1.	Create a Schedule named **Expression Events**.

@@ -3,6 +3,10 @@ sidebar_label: 'Special Topics Exercise 3'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 3 - Advanced Frequencies
 
 1.	Create a Schedule named **ADVANCED FREQUENCIES** with 5 Null Jobs.

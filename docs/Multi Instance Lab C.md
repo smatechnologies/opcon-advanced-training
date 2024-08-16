@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Lab C'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### LAB C
 
 Update the Multi-Instance Schedule used in **LAB 1A** to use Named Instances. 

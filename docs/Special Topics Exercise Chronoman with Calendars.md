@@ -3,6 +3,10 @@ sidebar_label: 'Special Topics Exercise Chronoman with Calendars'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise - Chronoman with Calendars
 
 1.	Create a different Calendar for each of the date calculations made in the previous exercise.

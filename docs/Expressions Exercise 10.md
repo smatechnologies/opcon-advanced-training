@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 10'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 10 - Self-Service
 
 1.	Create an **OpCon Self Service Button** that will be ```Disabled/Enabled``` based on an Expression being ```true``` with the following parameters:

@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Self Service Expressions'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### OpCon SMA Self Service Expressions
 
 Both the **Hide** and **Disable** features in SMA Self Service can be driven by Expressions

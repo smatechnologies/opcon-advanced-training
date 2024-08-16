@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 7'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 7 - Expression Dependency: Threshold Replacement
 
 1.	Create a Schedule named **Threshold Replacement** with two Schedule Instance Properties *(not Multi-Instance)*.

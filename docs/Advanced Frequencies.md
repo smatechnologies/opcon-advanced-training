@@ -3,6 +3,10 @@ sidebar_label: 'Advanced Frequencies'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Advanced Frequencies
 
 * OpCon Frequencies are very powerful

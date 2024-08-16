@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 4'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 4 - Overlapping Names
 
 1. Open **Master Schedule** with the **MY FIRST MULTI-INSTANCE SCHEDULE** selected and expand the required **Property Set** tab.

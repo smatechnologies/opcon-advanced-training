@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 6'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 6 - Property Expressions: Property in a Property Name
 
 1.	Create a Multi-Instance Schedule named **Property In Property Name** with two different Schedule Instance Properties

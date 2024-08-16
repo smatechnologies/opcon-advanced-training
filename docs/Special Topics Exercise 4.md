@@ -3,6 +3,10 @@ sidebar_label: 'Special Topics Exercise 4'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 4 - Frequency Based Features
 
 1.	Create a Schedule named **FREQUENCY FEATURES**.

@@ -3,6 +3,10 @@ sidebar_label: 'Frequency Dependencies And Events'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Frequency Dependencies and Events
 
 * Each Dependency can be set to a specific Frequency:

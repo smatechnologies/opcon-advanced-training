@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 11'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 11 - Cross SubSchedule Events
 
 1.	Record the fully qualified Schedule name of the **SUBSCHEUDLE** using the **Schedule Instance** ```TIME``` of ```15``` created in Exercise 10.

@@ -3,6 +3,10 @@ sidebar_label: 'Special Topics Exercise Chronoman'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise - Chronoman
 
 1.	Create a Schedule named **CHRONOMAN** with Monday-Friday as Work Days.

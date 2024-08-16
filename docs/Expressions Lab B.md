@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Lab B'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Advanced Expressions - Lab B
 
 Create a Schedule with a single Schedule Instance Property that has a value of ```0```. 

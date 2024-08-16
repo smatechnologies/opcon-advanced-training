@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Jobs'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Multi-Instance Jobs
 
 * Multi-Instance Jobs allow a single Job template to spawn multiple copies of itself using different sets of properties

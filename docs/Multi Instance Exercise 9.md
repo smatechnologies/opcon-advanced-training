@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 9'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 9 - Create a 2nd Machine for the OpCon Server
 
 1.	Open the **Agents** screen from the **Library**.

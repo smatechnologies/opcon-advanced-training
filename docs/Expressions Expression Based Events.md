@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Expression Based Events'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Expression Based Events
 
 If an Expression is true when a Job completes, an Event will trigger

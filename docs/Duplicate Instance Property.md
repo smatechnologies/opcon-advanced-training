@@ -3,6 +3,10 @@ sidebar_label: 'Duplicate Instance Property'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Duplicate Instance Property 
 
 * In the case of duplicate first Schedule Instance Properties:

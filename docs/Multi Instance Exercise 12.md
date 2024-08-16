@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 12'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 12 - External Events Schedule Instance Update
 
 1.	If the Schedule is still running, cancel all Jobs to close out the Schedules and delete the **PRIMARY SCHEDULE** from the Daily list.

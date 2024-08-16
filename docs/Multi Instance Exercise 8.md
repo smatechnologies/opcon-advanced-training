@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 8'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 8 - Machine Groups
 
 1.	In **Agents**, copy the SMATraining Machine twice. 

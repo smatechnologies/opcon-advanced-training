@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 7'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 7 - Multiple Multi Instance Jobs
 
 1.	Create a Schedule named **MULTI-INSTANCE JOB LIMITATION**.

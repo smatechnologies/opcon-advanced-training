@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Substrings'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Property Expressions - Substrings
 
 Allows character trimming from a Property String

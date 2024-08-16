@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 5'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 5 - Property Expressions: Property in Property Value
 
 1.	Create the following folder:  ```C:\PropertyInProperty\yyyy-mm-dd\Example```  

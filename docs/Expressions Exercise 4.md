@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 4'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 4 - Property Expressions: Substring Length
 
 1.	Create a Multi-Instance Schedule named **Substring Length** with Schedule Instance Properties of:

@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Lab C HIDDEN'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Lab C
 
 There are several Jobs within Congo Online Retail’s morning process that require the number of bytes of a specific report. 

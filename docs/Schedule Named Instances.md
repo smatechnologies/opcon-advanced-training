@@ -3,6 +3,10 @@ sidebar_label: 'Schedule Named Instances'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Schedule Named Instances
 
 * Cross-Schedule Dependecies

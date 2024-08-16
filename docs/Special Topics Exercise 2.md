@@ -3,6 +3,10 @@ sidebar_label: 'Special Topics Exercise 2'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 2 - Job Output Parsing
 
 1.	Create a DOS script with the following Text:

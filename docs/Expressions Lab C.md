@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Lab C'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Advanced Expressions - LAB C
 
 Create three Schedules (```Shift 1```, ```Shift 2```, and ```Shift 3```).  

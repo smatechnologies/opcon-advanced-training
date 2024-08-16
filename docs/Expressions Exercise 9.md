@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 9'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 9 - Expression Events: Value Depends on Month of the Year
 
 Within the Schedule named **Expression Events**:  

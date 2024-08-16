@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Lab B'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Lab B
 
 Each night Congo Online Retail needs to run a 3-step process:

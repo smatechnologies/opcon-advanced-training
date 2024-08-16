@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Arithmetic'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Property Expressions - Arithmetic
 
 Property Expressions allow arithmetic to alter Property Values

@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Machine Groups'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Machine Groups
 
 * Machine Groups allow Jobs to call a group of Machines instead of a specific Machine

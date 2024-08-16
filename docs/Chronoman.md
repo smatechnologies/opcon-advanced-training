@@ -3,6 +3,10 @@ sidebar_label: 'Chronoman'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Chronoman
 
 * A Command Line driven utility which does Advanced Date Calculations and saves the value in a User Defined Global Property

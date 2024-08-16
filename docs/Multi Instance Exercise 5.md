@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 5'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 5 - Update a Schedule Instance Property through an Event
 
 1. Create a Schedule called **UPDATE MULTI-INSTANCE PROPERTY VALUES**.

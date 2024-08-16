@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Multiple Time Windows'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Multiple Time Windows
 
 Property Expressions allow Multiple Time Windows by using OR and/or AND functions to combine Expressions

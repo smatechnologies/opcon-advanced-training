@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Lab A'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### LAB A
 
 Congo Online Retail Inc. needs to run the exact same processes at all major United States warehouses every night at 8 pm.

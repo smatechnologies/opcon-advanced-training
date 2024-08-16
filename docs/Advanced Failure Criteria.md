@@ -3,6 +3,10 @@ sidebar_label: 'Advanced Failure Criteria'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Advanced Failure Criteria
 
 ### Job Output Parsing - Purpose

@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 10'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 10 - Create Two SubSchedules
 
 1.	Create a Schedule named **PRIMARY SCHEDULE**.

@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Overview'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # OpCon Advanced Training - Expressions
 
 #### Expressions can be used for:

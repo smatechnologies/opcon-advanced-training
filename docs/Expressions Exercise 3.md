@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 3'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 3 - Property Expressions - SubStrings
 
 1.	Create a Global Property named ```[[SubStringExample]]``` with a value of: ```ACHAJ010123456789AIN202001011234.txt```

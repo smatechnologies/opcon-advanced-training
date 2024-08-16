@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Schedule Limitation'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Multi-Instance Schedule Limitation 
 
 * Only **Schedule Instance Properties** can be unique

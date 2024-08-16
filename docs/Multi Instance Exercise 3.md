@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 3'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 3 - Overlapping Names
 
  1. Open the **Master Schedule** with **MY FIRST MULTI-INSTANCE SCHEDULE** selected and expand the Instance Definitions tab.

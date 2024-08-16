@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 6'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 6 - Multi Instance Job
 
 1.	Create a Schedule named MULTI-INSTANCE JOBS.

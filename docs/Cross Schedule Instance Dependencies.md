@@ -3,6 +3,10 @@ sidebar_label: 'Cross Schedule Instance Dependencies'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Cross Schedule Instance Dependencies
 
 * **Named Instances** allow **Cross Schedule Job Dependencies** in Multi-Instance Schedules by identifying which version of a Multi-Instance Schedule to tie to a Dependency

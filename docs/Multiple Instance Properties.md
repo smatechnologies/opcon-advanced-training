@@ -3,6 +3,10 @@ sidebar_label: 'Multiple Instance Properties'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Multi Instance Multiple Instance Properties
 
 #### Multiple Instance Properties 

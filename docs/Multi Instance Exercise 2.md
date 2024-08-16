@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Exercise 2'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 2 - Multiple Properties
 
 1. Open the **Master Schedule** and edit **MY FIRST MULTI-INSTANCE SCHEDULE**.

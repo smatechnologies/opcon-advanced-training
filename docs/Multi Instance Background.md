@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Background'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Multi Instance - Background 
 
 * Provides the ability to manage multiple Schedules through a single Schedule

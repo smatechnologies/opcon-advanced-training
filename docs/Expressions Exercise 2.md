@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Exercise 2'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 2 - Property Expressions: Arithmetic
 
 

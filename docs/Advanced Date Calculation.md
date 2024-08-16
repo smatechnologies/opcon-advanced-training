@@ -3,6 +3,10 @@ sidebar_label: 'Advanced Date Calculation'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Advanced Date Calculation
 
 ### System Date Offsets

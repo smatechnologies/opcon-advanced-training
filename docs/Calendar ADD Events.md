@@ -3,6 +3,10 @@ sidebar_label: 'Calendar ADD Events'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Calendar:ADD Events
 
 * This Event type can add specified date(s) to a Calendar

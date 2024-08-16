@@ -3,6 +3,10 @@ sidebar_label: 'Multi Instance Jobs Limitations'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Multi-Instance Jobs - Limitations
 
 * Multiple Multi-Instance Jobs in a Dependency Chain all depend on **each** Instance

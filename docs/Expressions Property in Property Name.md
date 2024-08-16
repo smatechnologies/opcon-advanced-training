@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Property in Property Name'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Property in Property Name
 
 Expressions also provide the ability to place a Property within the Name of another Property

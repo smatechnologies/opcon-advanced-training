@@ -3,6 +3,9 @@ sidebar_label: 'Multi Instance Exercise 1'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
 
 ### Exercise 1 - Create a Multi-Instance Schedule
 

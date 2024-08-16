@@ -3,6 +3,10 @@ sidebar_label: 'Expressions Dependencies'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Expression Dependencies
 
 Additional Dependency that can be added to:

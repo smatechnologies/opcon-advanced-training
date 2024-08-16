@@ -3,6 +3,10 @@ sidebar_label: 'Special Topics Exercise 1'
 hide_title: 'false'
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ### Exercise 1 - Advance Failure Criteria
 
 1.	Create a Schedule named **ADVANCED FAILURE**.
