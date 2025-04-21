@@ -41,7 +41,7 @@ Monthly Value Expressions
 ![](../static/imgadvanced/expression_events_monthly_sm.png)
 
 
-### Enterprise Manager
+## Enterprise Manager
 
 <details>
 

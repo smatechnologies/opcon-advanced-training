@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Multi Instance Background'
+sidebar_label: 'Multi Instance Overview'
 hide_title: 'false'
 ---
 
@@ -7,29 +7,36 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Multi Instance - Background 
+# Multi Instance: Overview
 
-* Provides the ability to manage multiple Schedules through a single Schedule
-  - Less Setup
-  - Less Maintenance
-* Mark the **Multi-Instance** checkbox in Schedule Master
-* Schedule Instances are defined in the **Instance Definition** tab of Schedule Master
-* Each defined Instance results in a unique copy of a Schedule build for each day
+## Background
+
+* Provides the ability to **manage multiple** Schedules or Jobs through a single Schedule or Job definition
+  * Less Setup
+  * Less Maintenance
+* Marking the **Multi Instance** checkbox is the only requirement.
+* Each instance of a Schedule or Job is uniquily named during build time so that multiple versions are allowed.
+
+### Scheule Definition
 
 ![](../static/imgadvanced/checkbox_SM.png)
 
+### Job Definition
 
-### Enterprise Manager
+![](../static/imgadvanced/SM_job_multiinstancebox.png)
+
+
+## Enterprise Manager
 
 <details>
 
 #### Multi Instance - Background 
 
 * Provides the ability to manage multiple Schedules through a single Schedule
-  - Less Setup
-  - Less Maintenance
-* Mark the **Multi-Instance** checkbox in Schedule Master
-* Schedule Instances are defined in the **Instance Definition** tab of Schedule Master
+  * Less Setup
+  * Less Maintenance
+* Mark the **Mult-Instance** checkbox in Schedule Master
+* Schedule Instanceis are defined in the **Instance Definition** tab of Schedule Master
 * Each defined Instance results in a unique copy of a Schedule build for each day
 
 ![](../static/imgadvanced/checkbox.png) 

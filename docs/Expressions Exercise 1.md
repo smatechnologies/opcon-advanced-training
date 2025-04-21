@@ -7,44 +7,59 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Exercise 1 - Property Expressions - ToUpper and ToLower
+# Property Expressions Exercise 1
+ 
+## Exercise 1: ToUpper and ToLower
+ 
+### Objective
 
-1. Create the folder ```C:\PropertyExpressions``` on the OpCon Training Machine.
+To use ToUpper and ToLower to manipulate the name of a file.
+ 
+### Summary
+
+Utilizing ToUpper and ToLower expressions to manipulate the name of a file, **PropertyExpressions.txt**, so that it reflects the month as part of the name.
+
+### Instructions
+
+#### Create the Directory and File
+
+1. Create the folder ```C:\Expressions``` on the OpCon Training Machine.
 2. Create a blank text file named ```PropertyExpressions.txt```
-3. Create a Global Property for ```[[$SCHEDULE DATE mmm]]```
-* Name: ```$SCHEDULE DATE mmm```
-* Value: ```mmm```
+
+#### Create the Global Property
+
+3. Create a Global Property
+  * Name: ```$SCHEDULE DATEmmm```
+  * Value: ```mmm```
+
+#### Create the Schedule
+
 4. Create a Schedule called **Property Expressions**.
-5. Create a Job named **File Copy** with the following parameters:
 
-* **Job Type**: ```Windows```
-* **Job Sub-Type**: ```Command: File Copy```
-* **Primary Machine**: ```SMATraining```
-* **User ID**: ```Use Service Account```
-* **Source**:  
-```
-C:\PropertyExpressions\PropertyExpressions.txt
-```
-* **Destination**:  
-```
-C:\PropertyExpressions\PropertyExpressions_[[=ToUpper([[$SCHEDULE DATE mmm]])]].txt
-```
-* **Frequency**: ```MON-FRI-N```
+#### Create the Jobs
 
-6. Copy the Job changing the following two things:
+5. Create a File Copy Job called, **To Upper File Copy**, with the following parameters:
+  * **Job Type:** ```Windows```
+  * **Job Sub-Type:** ```Command: File Copy```
+  * **Primary Machine:** ```SMATraining```
+  * **User ID:** ```SMATRAINING\SMAUSER```
+  * **Source:** ```C:\Expressions\PropertyExpressions.txt```
+  * **Destination:** ```C:\Expressions\PropertyExpressions_1_[[=ToUpper([[$SCHEDULE DATEmmm]])]].txt```
+  * **Frequency:** ```MON-FRI-N```
+6. **Copy the Job** changing the following two things:
+  * Name: **To Lower File Copy**
+  * **Source:** ```C:\Expressions\PropertyExpressions_1_[[=ToUpper([[$SCHEDULE DATEmmm]])]].txt```
+  * **Destination:** ```C:\Expressions\PropertyExpressions_2_[[=ToLower([[$SCHEDULE DATEmmm]])]].txt```
+  * **Dependency:** Make the copied Job dependent on the first Job.
 
-* **Source**:  
-```
-C:\PropertyExpressions\PropertyExpressions_[[=ToUpper([[$SCHEDULE DATE mmm]])]].txt
-```
+#### Build the Schedule
 
-* **Destination**:  
-```
-C:\PropertyExpressions\PropertyExpressions2_[[=ToLower([[$SCHEDULE DATE mmm]])]].txt
-```
+7. Build the Schedule for today and run it.
 
-* Make the copied Job dependent on the first Job.
+:::note 
 
-7. Build the Schedule for today.
-8. Verify that the Job Finished **OK** (release the Schedule if necessary).
-9. Verify that the two files were created with the proper names.
+* Verify that the Job Finished **OK** 
+* Verify that the two files were created with the proper names.
+
+![](../static/imgadvanced/ExpressEx1Solution.png)
+:::

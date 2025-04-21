@@ -7,25 +7,51 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Multi Instance Job Instance Property
+## Fully Qualified Job Instance Property
 
-### Job Instance Property Update
+## Syntax
 
-* Updating Job Instance Properties through an event is a similar process to updating Schedule Instance Properties
-    * Occurs in Daily Tables, not Master Tables
-    * A fully-qualified Job Instance Property Name is required
-    * A Job Name does not change if the value of the first Job Instance Property is updated after a Schedule is built
+* **JI.PropertyName.Date.ScheduleName.JobName**
+* Fully-Qualified ScheduJoble Instance Property Names are made up of five parts each seperated with a period, .
+  * SI
+  * Property Name
+  * Schedule Date
+  * Schedule Name
+  * Job Name
 
-### Fully-Qualifed JI Property Name
+## Parameters  
 
-* Fully Qualified Job Instance Property:
-    * ```JI.PropertyName.Date.ScheduleName.JobName```
-* Periods are the delimiter between parameters when spelling out a fully qualified Job Instance Property
+* **JI:** is Requred and indicates a Job Instance Property
+* **PropertyName:** is Required and is the name of the Property defined on the Job
+* **Date:** is the Scheduled Date of the Job the Job Instance Property is defined on
+* **ScheduleName:** is the Fully Qualified Schedule Name where the Schedule Instance Property is defined
+* **JobName:** is the fully qualified Job Name of the Job Instance Property being updated 
 
-Parameters:  
+## Usage Rules
 
-* ```JI``` - Indicates a Job Instance Property
-* ```PropertyName``` - the name of the Job Instance Property
-* ```Date``` - The Schedule Date of an Instance which will be updated
-* ```ScheduleName``` - The fully qualified Schedule Name containing a Job whose Job Instance Property is being updated
-* ```JobName``` - The fully qualified Job Name of the Job Instance Property being updated 
+* If being used in an Event or Notification Trigger **ALL PARAMETERS** are Required.
+* A Job Name does not change if the value of the first Job Instance Property is updated after a Schedule the job is in is built
+* If the **Property Name**, **Schedule Name**, or **Job Name** contains a **Period** or is a **SubSchedule** the parameter needs to be wrapped in quotes.
+  * _SI."Property.Name"..ScheduleName.JobName_
+  * _SI.PropertyName.."Schedule.Name".JobName_
+  * _SI.PropertyName..ScheduleName."Job.Name"_
+  * _SI.ScheduleProperty.."ParentSchedule\_Container[SubSchedule]".JobName_
+* All 5 parts need to be defined to successfully reference the Job Instance Property **EXECPT:**
+  * if the Schedule Date will always be the current Date, then you can leave out the Schedule Date qualifier
+    * _SI.PropertyName..ScheduleName.JobName_
+  * if the Schedule Name isn't needed as the Event or Notification is tied to that Schedule
+    * _SI.Propertyname.ScheduleDate..JobName_
+  * if the Job Name isn't needed as the Event or Notification is tied to that Job
+      * _SI.Propertyname.ScheduleDate.ScheduleName_
+
+:::tip Example
+
+* **Job1** in a Schedule named **Training Schedule** has a Job Instance Property of ```TIME``` with a value of ```10```
+* Using a $PROPERTY:SET event that updates that value in today's schedule to a value of ```20```
+* Schedule name: ```Training Schedule```
+* Job Name: ```Job1_10```
+* Property Name: ```TIME```
+
+$PROPERTY:SET,**SI.TIME.[[$DATE]].Training Schedule.Job1_10**,20
+
+:::

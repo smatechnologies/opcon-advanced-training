@@ -7,21 +7,23 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Expression Dependencies
+# Expression Dependencies
 
-Additional Dependency that can be added to:
+## Overview
 
-* Time Dependencies
-* Job Dependencies
-* Threshold Dependencies
-* Resource Dependencies
+* Expressions can be used in places where job dependencies can't be used effectivly.
+* Expressions have to be a true statement in order for the dependency to be resolved.
 
-Requires a specified Expression to be true before a Job will run
+## Usage
 
-Can be utilized in addition to other Dependency options
+* Jobs can run in Multiple Time windows
+* Preceeding Job(s) need to be in a specific status in order to run
+* We need to count something and use that count to prevent a job from running
 
-#### Examples:
+:::tip Examples
 
 * Threshold Replacement using Schedule Instance Properties  
     * _Reduces the number of Global Features used in a Schedule_
 * Multiple Time Windows in which Job can run
+
+:::

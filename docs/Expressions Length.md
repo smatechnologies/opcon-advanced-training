@@ -7,26 +7,40 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Property Expressions - Length
+# Property Expressions - Length
 
-Allows the collection of the full length of a specified Property
+## Overview 
+
+It returns the length of a specified Property or value
+
+## Syntax
+
+Length(value)
+
+* **value:** The Property or value that the length is needed for
+  * can use arithmatic in this field
 
 ### Usage:
 
-* Multiple files arrive sporadically throughout day
 * Move a file while changing the file extension but keeping the rest of the File Name same
 * Combine Length Expression, Arithmetic Expression, and SubString to automatically keep the full Name but change extension
+* An Expression followed by ```.<extention>``` will change the extension of the file while keeping the original base name
 
-```
-[[SI.FILENAME]] = Test.txt
+:::tip Example
 
-[[=Length([[SI.FILENAME]])]] = 8
+* To remove the extention off the file name, we would capture the file name in a property,
+  * ```[[SI.FILENAME]]``` = Test.txt
+* Use the Length expression to find the total legnth of the file name.
+  * ```[[=Length([[SI.FILENAME]])]]``` = 8
+* Use subtration to remove the length of the extention of the file name from the full length
+  * ```[[=(Length([[SI.FILENAME]])-4)]]``` = 4
+* All steps can be combined into one expression
+  * ```[[=SubStr([[SI.FILENAME]],0,Length([[SI.FILENAME]])-4)]]``` = Test
 
-[[=(Length([[SI.FILENAME]])-4)]] = 4
+:::
 
-[[=SubStr([[SI.FILENAME]],0,Length([[SI.FILENAME]])-4)]] = Test
-```
+:::note
 
-An Expression followed by ```.xlsx``` will change the extension of the file while keeping the first part of the Name
+Most SMA File Monitors, ie. File Arrival and SMA Resource Monitor, have ways to pass the Root of a File Name while dropping the extension.
 
-*Most SMA File Monitors also have a way to pass the Root of a File Name while dropping the extension*
+:::

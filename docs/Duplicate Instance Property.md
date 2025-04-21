@@ -7,15 +7,12 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Duplicate Instance Property 
+# Duplicate Instance Property
 
-* In the case of duplicate first Schedule Instance Properties:
-    * $#### is appended to Schedule Name
 
-##### Example:
+* In the case of duplicate first Schedule Instance Properties a unique qualifier is added to the Schedule or Job name, **$####**
+* Random Schedule Names can make utilizing Events difficult
+* Best Practice is to employ standardized naming conventions by putting Properties with unique values first
 
-* ```TIME=10``` and ```TIME=20``` are both shared
-* ```$0003``` and ```$0004``` are appended to the Schedule names
-* The numbers are assigned as the third and fourth Instances of the Daily Schedule Build
-    * _Random Schedule Names can make utilizing Events difficult_
-    * _Best Practice is to employ standardized naming conventions_
+![](../static/imgadvanced/SM_DuplicateProperties.png)
+

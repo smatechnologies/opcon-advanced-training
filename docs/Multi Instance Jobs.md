@@ -7,42 +7,35 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Multi-Instance Jobs
+# Multi-Instance Jobs
+
+## Overview
 
 * Multi-Instance Jobs allow a single Job template to spawn multiple copies of itself using different sets of properties
-
-###### Example (Purpose):
-
-* Ten Jobs are the same other than few small changes on the Command Line
-    * Use one Job to build all ten
 * **Allow Multi-Instance** check box must be marked to allow a Multi-Instance Job 
     * Container Jobs are Multi-Instance by default
 
-![](../static/imgadvanced/MasterJob_Multi_Instance_SM.png)
+### Job Definition
 
----
-
-### Multi-Instance Jobs - Instance Definition
+![](../static/imgadvanced/SM_job_multiinstancebox.png)
 
 
-* Create Job Instance Definitions using the Instance Definition tab within Job Master
-* Similar rules apply to Multi-Instance Schedules and Jobs
-    * Use a semicolon (;) to separate Job Instance Properties
+## Jobs Instance Property Sets
 
-```FileName=test01.txt;Path=C:\tmp```
-
+* Create Job Instance Property Sets using the Instance Definition tab within Job Master
+* Rules that apply to Multi Instance Scheudles also applly to Multi Instance Jobs
+* When there are multiple properties defined in a set each property is seperated with a semi-colon (;)
+  * FileName=test01.txt**;**Path=C:\tmp
 * A Job will be named using the value of the first Instance Property defined in a String
-* Name Scheme Example:  
+  * JobName_**JI-Value**
+    * JobName_**test.txt**
+  * Duplicates will have a **$####**
+    * JobName_test-1.txt**$0004**
 
-```JobName_JI-Value```
 
-```JobName_test.txt```
 
-* Duplicates will have a **$####**
 
-```JobName_test-1.txt$0004```
-
-### Enterprise Manager
+## Enterprise Manager
 
 <details>
 

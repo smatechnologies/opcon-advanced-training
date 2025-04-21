@@ -7,34 +7,37 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Multiple Time Windows
+# Expression Dependency - Multiple Time Windows
 
-Property Expressions allow Multiple Time Windows by using OR and/or AND functions to combine Expressions
+## Overview
+
+* Expressions allow Multiple Time Windows by using OR and/or AND functions to combine Expressions to make a true statement
+
+## Usage
+
 * Utilizes 24-hour clock time
+* When a job needs to run within a time window
+* When a Self Service button should be made available
 
-#### Examples:
+:::tip Example 1
 
-Between **1:00 am** and **9:00 am**
+* A job needs to run between **1:00 am** AND **9:00 am**
+  * ```[[$TIMEhh]] > 01 && [[$TIMEhh]] < 09```
 
-```TIME > 01 && TIME < 09```
+:::
 
-Between **1:00 am** and **9:00 am** or between **2:00 pm** and **5:00 pm**
+:::tip Example 2
 
-```(TIME > 01 && TIME < 09) || (TIME > 14 && TIME < 17) ```
+* A job needs to run between **1:00 am** AND **9:00 am** OR between **2:00 pm** AND **5:00 pm**
+  * ```(ToInt([[$TIMEhh]]) > 01 && ToInt([[$TIMEhh]]) < 09)) || (ToInt([[$TIMEhh]]) > 14 && ToInt([[$TIMEhh]]) < 17)```
 
-#### Example:
+:::
 
-Allows a Job to run between **02:00 am** and **10:00 am** OR **6:00 pm** and **8:00 pm**
 
-```
-(02 < ToInt([[$TIMEhhmm]]) && ToInt([[$TIMEhhmm]]) < 10) || (18 < ToInt([[$TIMEhhmm]]) && ToInt([[$TIMEhhmm]]) < 20)
-```
 
-![](../static/imgadvanced/expressions_timehh_sm.png)
 
-![](../static/imgadvanced/expression_dependency_sm.png)
 
-### Enterprise Manager
+## Enterprise Manager
 
 <details>
 

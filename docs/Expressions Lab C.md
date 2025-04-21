@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Expressions Lab C'
+sidebar_label: 'Expressions Lab B'
 hide_title: 'false'
 ---
 
@@ -7,27 +7,18 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Advanced Expressions - LAB C
+## Advanced Expressions - Lab B
 
-Create three Schedules (```Shift 1```, ```Shift 2```, and ```Shift 3```).  
+Create a Schedule with a single Schedule Instance Property that has a value of ```0```. 
 
-Make the Schedule Start Times:
+Create an SMA Self Service button that will update that Schedule Instance Property to a value of ```1```. 
 
-```Shift 1```: ```00:00```
+Create a Job within that Schedule that can only run during the following Times:  
 
-```Shift 2```: ```08:00```
+* Between **2:00 am** – **4:00 am**
+* Between **6:30 am** – **10:00 am**
+* Between **11:00 am** – **2:00 pm**
+* Between **5:30 pm** – **8:00 pm**
+* Between **11:00 pm** – **11:30 pm**
 
-```Shift 3```: ```16:00```
-
-Create a **Null Job** in each of the three Schedules with an **Expression Dependency** of a **Schedule Instance Property** equaling ```1```.   
-
-* Make sure the Property is set to ```0```.
-
-Create two Events in the ```Shift 1``` Null Job:  
-
-* ```JOB:CANCEL``` cancelling itself when ```[[$TIMEhh]]``` equals ```08```.
-* ```JOB:ADD``` adding the Null Job in ```Shift 2``` when $TIMEhh equals ```08```.
-
-Do the same thing in ```Shift 2``` when ```[[$TIMEhh]]``` equals ```16```.
-
-Do the same thing in ```Shift 3``` when ```[[$TIMEhhmm]]``` equals ```2359```, except change the ```$JOB:ADD``` to a Notify Event alerting the End User that this Job did not run today.
+Make sure the Schedule Instance Property is set to ```1``` before the Job will run. Both the times and the SI dependency must be true.

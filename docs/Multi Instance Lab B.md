@@ -7,46 +7,65 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Lab B
+# Multi Instance Lab B
 
-Each night Congo Online Retail needs to run a 3-step process:
+## Lab B
 
-* Run a nightly batch Job closing out the business day for all of Congo Online Retail.
-    * Use the same ```Timeout``` command as the previous Lab.
+### Objective
 
-* Run a follow-up report for each of the major U.S. warehouses containing the individual warehouses’ production.  
+To create use a Multi Instance Job that will trigger 12 jobs to be built and have some limitations
 
-    * This is a Multi-Instance Job.  
+### Summary
 
-    * Use the same warehouse IDs and Paths as the previous Lab.  
+Congo Online Retail Inc. needs to run a 3-step processes, called **Congo Warehouse Batch Reports**, that runs a batch job and generates reports for all major United States warehouses. Employees need to be notified for that each city's report is available. The only differences between each of the warehouses are the **Warehouse ID** and **LOCATION** to drop the report.
 
-    * Run a Job that distributes each of these reports. 
-        * Use the same ```Timeout``` command in the previous Lab.
+A list of the major United States warehouses along with their ID and report path is listed below:
 
-Use either the ```genericp``` program or the DOS ```Timeout``` command for **Jobs 1** and **3**. 
+* Southeast Warehouse
+  * **LOCATION:** Atlanta
+  * **ID:** ```4```
+  * **PATH:** ```C:\Warehouses\Atlanta```
+* Midwest Warehouse
+  * **LOCATION:** Chicago
+  * **ID:** ```21```
+  * **PATH:** ```C:\Warehouses\Chicago```
+* Texas Warehouse
+  * **LOCATION:** Houston
+  * **ID:** ```28```
+  * **PATH:** ```C:\Warehouses\Houston```
+* Southwest Warehouse
+  * **LOCATION:** LosAngeles
+  * **ID:** ```31```
+  * **PATH:** ```C:\Warehouses\LosAngeles```
+* Northeast Warehouse
+  * **LOCATION:** NewYork
+  * **ID:** ```11```
+  * **PATH:** ```C:\Warehouses\NewYork```
+* Northwest Warehouse
+  * **LOCATION:** Seattle
+  * **ID:** ```42```
+  * **PATH:** ```C:\Warehouses\Seattle```
 
-Use the same Embedded Script used in **Lab 1A** for the **2nd Job** to pass **Job Instance** values for the warehouse ID and Path. 
+### Instructions
 
-### Enterprise Manager
+* Create a scheudle called **Congo Warehouse Batch Reports**
+* Create three Jobs in the Schedule:
+  * Job 1: **Nightly Batch**
+    * Create a nightly batch Job closing out the business day for all of Congo Online Retail.
+      * Use the same ```Timeout /t 15```
+  * Job 2: **ES WarehouseReport**
+    * Create a follow-up report for each of the major U.S. warehouses containing the individual warehouses’ production.  
+      * This is a Multi-Instance Job.  
+      * Use the same Embedded Scripts, **WarehouseReport**, job from the previous Lab.
+      * Use the arguments listed above, ```[[JI.ID]] [[JI.PATH]] [[$TIMEhhmm]]```
+  * Job 3: **NULL Email**
+    * Create a Null Job that will trigger an email for each city notifying ```smauser@congo.local``` that the report for that city is completed.
+
+
+### Answer
 
 <details>
 
-Each night Congo Online Retail needs to run a 3-step process:
-
-* Run a nightly batch Job closing out the business day for all of Congo Online Retail.
-    * Use the same ```Timeout``` command as the previous Lab.
-
-* Run a follow-up report for each of the major U.S. warehouses containing the individual warehouses’ production.  
-
-    * This is a Multi-Instance Job.  
-
-    * Use the same warehouse IDs and Paths as the previous Lab.  
-
-    * Run a Job that distributes each of these reports. 
-        * Use the same ```Timeout``` command in the previous Lab.
-
-Use either the ```genericp``` program or the DOS ```Timeout``` command for **Jobs 1** and **3**. 
-
-Use the same Embedded Script used in **Lab 1A** for the **2nd Job** to pass **Job Instance** values for the warehouse ID and Path. 
+![](../static/imgadvanced/MILabBSolution.png)
 
 </details>

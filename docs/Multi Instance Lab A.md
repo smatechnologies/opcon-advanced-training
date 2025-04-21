@@ -7,66 +7,61 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### LAB A
+# Multi Instance Lab A
 
-Congo Online Retail Inc. needs to run the exact same processes at all major United States warehouses every night at 8 pm.
+## Lab A
 
-The only differences in the processes between each of the warehouses are the Warehouse ID and Location to drop the report.
+### Objective
 
-The Schedule needs to have the city the warehouse is located within the Schedule Name.
+To create a Multi Instance Schedule that will trigger 6 individual scheduls to be built.
+
+### Summary
+
+Congo Online Retail Inc. needs to run the exact same processes at all major United States warehouses every night at 8 pm. The only differences in the processes between each of the warehouses are the Warehouse ID and LOCATION to drop the report. The Schedule, **Congo Warehouse Report**, needs to have the city the warehouse is located within the Schedule Name.
 
 A list of the major United States warehouses along with their ID and report path is listed below:
 
-* Southeast Warehouse:
-    * **Location**: Atlanta
-    * **ID**: ```4```
-    * **PATH**: ```C:\Warehouses\Atlanta```
-
-* Northeast Warehouse:
-    * Location: NewYork
-    * ID: ```11```
-    * PATH: ```C:\Warehouses\NewYork```
-
-* Midwest Warehouse:
-    * Location: Chicago
-    * ID: ```21```
-    * PATH: ```C:\Warehouses\Chicago```
-
-* Texas Warehouse:
-    * Location: Houston
-    * ID: ```28```
-    * PATH: ```C:\Warehouses\Houston```
- 
-* Southwest Warehouse:
-    * Location: LosAngeles
-    * ID: ```31```
-    * PATH: ```C:\Warehouses\LosAngeles```
-	
+* Southeast Warehouse
+  * **LOCATION:** Atlanta
+  * **ID:** ```4```
+  * **PATH:** ```C:\Warehouses\Atlanta```
+* Midwest Warehouse
+  * **LOCATION:** Chicago
+  * **ID:** ```21```
+  * **PATH:** ```C:\Warehouses\Chicago```
+* Texas Warehouse
+  * **LOCATION:** Houston
+  * **ID:** ```28```
+  * **PATH:** ```C:\Warehouses\Houston```
+* Southwest Warehouse
+  * **LOCATION:** LosAngeles
+  * **ID:** ```31```
+  * **PATH:** ```C:\Warehouses\LosAngeles```
+* Northeast Warehouse
+  * **LOCATION:** NewYork
+  * **ID:** ```11```
+  * **PATH:** ```C:\Warehouses\NewYork```
 * Northwest Warehouse
-    * Location: Seattle
-    * ID: ```42```
-    * PATH: ```C:\Warehouses\Seattle```
+  * **LOCATION:** Seattle
+  * **ID:** ```42```
+  * **PATH:** ```C:\Warehouses\Seattle```
 
-Create an Embedded script using the Command Shell type with the following text:
+### Instructions
+
+* Create an Embedded script called, **WarehouseReport**, using the **Command Shell type** with the following text:
 
 ```
 rem %1 is the warehouse ID used for this job.
-rem %2 is the location the report needs to be placed in.
+rem %2 is the LOCATION the report needs to be placed in.
 rem %3 is the time of day the report was run in hhmm format.
 
-Echo "All information is posted for warehouse %1.">%2\WarehouseReportFor%1_%3.txt
-
+Echo "All information is posted for warehouse %1." > %2\WarehouseReportFor%1_%3.txt
 ```
 
-Name the Script WarehouseReport. Create three Jobs in the Schedule:
-
-* 1.	**Command Line**:  
-    ```Timeout /t [[SI.ID]]```
-* 2.	**Embedded Script**:  
-    ```[[SI.ID]] [[SI.PATH]] [[$TIMEhhmm]]```  
-* 3.	**Null Job**:  
-    Send an email as ```smauser@congo.local``` once this Job has 
-completed stating that the Schedule has completed for the specific City warehouse.
+* Create three Jobs in the Schedule:
+  * Job 1 **Command Line:** ```Timeout /t [[SI.ID]]```
+  * Job 2 **Embedded Script Arguments:** ```[[SI.ID]] [[SI.PATH]] [[$TIMEhhmm]]```  
+  * Job 3 **Null Job:** Trigger an email via an event to ```smauser@congo.local``` once this Job has completed stating that the Schedule has completed for the specific City warehouse.
 
 :::info NOTE
 
@@ -74,66 +69,10 @@ Be sure that the Global property ```[[$TIMEhhmm]]``` exists. If it does not, cre
 
 :::
 
-### Enterprise Manager
+### Answer
 
 <details>
 
-Congo Online Retail Inc. needs to run the exact same processes at all major United States warehouses every night at 8 pm.
-
-The only differences in the processes between each of the warehouses are the Warehouse ID and Location to drop the report.
-
-The Schedule needs to have the city the warehouse is located within the Schedule Name.
-
-A list of the major United States warehouses along with their ID and report path is listed below:
-
-* Southeast Warehouse:
-    * **Location**: Atlanta
-    * **ID**: ```4```
-    * **PATH**: ```C:\Warehouses\Atlanta```
-
-* Northeast Warehouse:
-    * Location: NewYork
-    * ID: ```11```
-    * PATH: ```C:\Warehouses\NewYork```
-
-* Midwest Warehouse:
-    * Location: Chicago
-    * ID: ```21```
-    * PATH: ```C:\Warehouses\Chicago```
-
-* Texas Warehouse:
-    * Location: Houston
-    * ID: ```28```
-    * PATH: ```C:\Warehouses\Houston```
- 
-* Southwest Warehouse:
-    * Location: LosAngeles
-    * ID: ```31```
-    * PATH: ```C:\Warehouses\LosAngeles```
-	
-* Northwest Warehouse
-    * Location: Seattle
-    * ID: ```42```
-    * PATH: ```C:\Warehouses\Seattle```
-
-Create an Embedded script using the Command Shell type with the following text:
-
-<a href="imgadvanced/WarehouseReportScript.png" target="_blank"><img src="imgadvanced/WarehouseReportScript.png" width="300"></img></a>   
-
-Name the Script WarehouseReport. Create three Jobs in the Schedule:
-
-* 1.	**Command Line**:  
-    ```Timeout /t [[SI.ID]]```
-* 2.	**Embedded Script**:  
-    ```[[SI.ID]] [[SI.PATH]] [[$TIMEhhmm]]```  
-* 3.	**Null Job**:  
-    Send an email as ```smauser@congo.local``` once this Job has 
-completed stating that the Schedule has completed for the specific City warehouse.
-
-:::info NOTE
-
-Be sure that the Global property ```[[$TIMEhhmm]]``` exists. If it does not, create it before building the job.
-
-:::
+![](../static/imgadvanced/MILabASolution.png)
 
 </details>

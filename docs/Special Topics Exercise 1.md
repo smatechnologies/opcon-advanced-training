@@ -7,13 +7,45 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Exercise 1 - Advance Failure Criteria
 
-1.	Create a Schedule named **ADVANCED FAILURE**.
-2.	Create a Job that runs ```genericp.exe``` every day.
-* ```C:\Program Files\OpConxps\MSLSAM\genericp.exe –t 5 –e 500```
-3.	Create a Null Job that has a Job Dependency on the genericp.exe Job and runs every day.
-4.	Set the ```genericp.exe``` Job to Finish OK if it completes with a ```0``` or ```500```.
-5.	Create an Exit Code-based event for the ```genericp.exe``` Job to Skip the Null Job if it exits with a ```500```.
-6.	Build the Schedule and verify that the 1st Job exited with a ```500``` but was listed as Finished OK.
-7.	Verify that the 2nd Job was skipped.
+# Special Topics Exercise 1
+
+## Exercise 1: Advanced Failure Criteria
+
+### Objective
+
+To define Advanced Failure Criteria on a job.
+
+### Summary
+
+Creat a schedule, **Advanced Failure**, that contains a job that will **Finish OK** when the job returns a **500** for an exit code. Then have the exit code of **500** trigger a **$JOB:SKIP** event to skip the dependent job.
+
+### Instructions
+
+#### Create the Schedule
+
+1.	Create a Schedule named **Advanced Failure**.
+
+#### Create the Jobs
+
+2.	Create a Job called **Job 1** with the following settings:
+  * Command Line: ```C:\Program Files\OpConxps\MSLSAM\genericp.exe -t15 -e500```
+  * Advanced Failure Criteria: ```0``` or a ```500``` is a **Finish OK**
+  * Frequency: Mon-Sun-O
+  * Event: **SKIP** the **NULL Job** when this job returns a **500**
+3.	Create a **Null Job** with the following settings:
+  * Frequency: Mon-Sun-O
+  * Dependency: **Requires Job 1** to **Finish OK**
+
+#### Build the Schedule
+
+4.	Build the Schedule
+
+:::note
+
+* Verify that the 1st Job exited with a ```500``` but was listed as Finished OK.
+* Verify that the 2nd Job was skipped.
+
+![](../static/imgadvanced/STEx1Solution.png)
+
+:::

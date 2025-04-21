@@ -7,13 +7,24 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Exercise 10 - Self-Service
+# Property Expressions Exercise 9
+ 
+## Exercise 9: Expression Events (Months)
+ 
+### Objective
 
-1.	Create an **OpCon Self Service Button** that will be ```Disabled/Enabled``` based on an Expression being ```true``` with the following parameters:
+ 
+### Summary
 
-	* The Button is disabled if the current Time is before ```8 am```.
-	* The Button is disabled if the current Time is after ```5 pm```.
-	* The Button is disabled after it is submitted. 
-		* An expression with a Global Property equaling ```1```.
-	* All Buttons are tied to a Global Property. 
-		* When this Global Property equals ```1```, all buttons are disabled.
+
+### Instructions
+
+Within the Schedule named **Expression Events:**  
+
+1.	Create a Job with Expression Events that will update a Property differently depending on the current month.  
+
+	* ```Jan```, ```Apr```, ```Jul```, or ```Oct``` have a group number of ```151```
+	* ```Feb```, ```May```, ```Aug```, or ```Nov``` have a group number of ```167```
+	* ```Mar```, ```Jun```, ```Sep```, or ```Dec``` have a group number of ```235```
+
+2.	Build the Schedule and verify that the Global Property was updated to the proper number based on the current month.

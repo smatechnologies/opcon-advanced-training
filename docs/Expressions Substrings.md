@@ -7,22 +7,35 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Property Expressions - Substrings
+# Property Expressions - SubStrings
 
-Allows character trimming from a Property String
+## Overview 
 
-### Example:
+The SubStr expression allows character trimming from a value.
 
-```[[SI.FILENAME]] = FileA.txt```
+## Syntax
 
-```[[SI.FILENAME]] = FileB.txt```
+SubStr(value,start,length)
 
-If a single letter within the File Name is desired:
+* **value:** The original String to be trimmed 
+* **start:** The number of characters to move from the left
+* **length:** How many characters to collect *(if omitted, the full remaining String will be collected)*
 
-```[[=SubStr([[SI.FILENAME]],4,1)]]```
+## Usage
 
-#### Three parameters within this function:
+* Used primarily to capture part of the Filename or value.
 
-* The original String to be trimmed 
-* The number of characters to move from the left
-* How many characters to collect *(if omitted, the full remaining String will be collected)*
+:::tip Example
+
+If we need to capture the 5th leter in the Filename that was found, we can use SubStr.
+
+* We would use the following
+  * ```[[=SubStr([[SI.FILENAME]],4,1)]]```
+* Where
+  * ```[[SI.FILENAME]] = FileA.txt```
+  * ```[[SI.FILENAME]] = FileB.txt```
+* Result would be
+   * ```A```
+   * ```B```
+
+:::

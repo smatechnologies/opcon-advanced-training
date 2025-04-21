@@ -25,7 +25,7 @@ The value of the Global Property must be set to true to release functionality
  
 ![](../static/imgadvanced/self_service_expressiondisable2.png) 
 
-### Enterprise Manager
+## Enterprise Manager
 
 <details>
 

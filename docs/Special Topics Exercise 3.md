@@ -7,15 +7,62 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Exercise 3 - Advanced Frequencies
+# Special Topics Exercise 3
+ 
+## Exercise 2: Advanced Frequency Settings
+ 
+### Objective
+ 
 
-1.	Create a Schedule named **ADVANCED FREQUENCIES** with 5 Null Jobs.
-2.	Give 4 of the 5 Jobs a Frequency allowing them to run every day.
-3.	Give the 5th Job a Frequency to run on the end of the month.
-4.	Null Job 1: **Exclude Feb, Jun, Aug, and Nov**
-5.	Null Job 2: **Start Scheduling on next Wednesday’s date**
-6.	Null Job 3: **Stop Scheduling on next Wednesday’s date**
-7.	Null Job 4: **Exclude from Schedule on this Friday**
-8.	Null Job 5: **Include in Schedule on this Friday (this is the end of the month Frequency)**
-9.	Build the Schedule for every day this week, next week, and one day in November.
-10.	Verify that the proper Jobs were included/excluded each day.
+### Summary
+ 
+
+### Instructions
+ 
+#### Create the Schedule
+
+1. Create a Schedule named **Advanced Frequency Settings** 
+
+#### Create the Jobs
+
+2. Create 4 NULL jobs with the following settings:
+  * Frequency for 4 of the 5 jobs: Mon-Sun-O
+  * Frequency for the 5th job: EOM-O
+  * **Advanced Frequency Settings** for each Job:
+    * **Null Job 1:** Exclude Feb, Jun, Aug, and Nov
+    * **Null Job 2:** Start Scheduling on next Wednesday’s date
+    * **Null Job 3:** Stop Scheduling on next Wednesday’s date
+    * **Null Job 4:** Exclude from Schedule on this Friday
+    * **Null Job 5:** Include in Schedule on this Friday (this is the end of the month Frequency)
+
+#### Build the Schedule
+
+3. Build the Schedule multiple times based on the following:
+  * Until next Sunday
+  * One random day in November.
+
+:::note
+
+You should see the following jobs scheudled as follows: 
+
+* **NULL Job 1**
+
+![](../static/imgadvanced/STEx3Solution1.png)
+
+* **NULL Job 2**
+
+![](../static/imgadvanced/STEx3Solution2.png)
+
+* **NULL Job 3**
+
+![](../static/imgadvanced/STEx3Solution3.png)
+
+* **NULL Job 4**
+
+![](../static/imgadvanced/STEx3Solution4.png)
+
+* **NULL Job 5**
+
+![](../static/imgadvanced/STEx3Solution5.png)
+
+:::

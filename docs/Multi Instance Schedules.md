@@ -7,38 +7,40 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Multi-Instance Schedules - Instance Properties
+# Multi-Instance: Schedules
 
-* Each parameter line will have its own copy of the Schedule
-* In this case, there are two Instance Properties defined:
+## Overview
 
-```TIME=10```
+* There are three types of Mulit Instance Schedules
+  * Property Schedules
+  * Machine Group Schedules
+  * Named Instances Schedules 
 
-```TIME=20```
+![](../static/imgadvanced/SM_InstanceDef.png)
 
-* Naming Scheme: Schedule Name followed by an underscore and the first Property's value
+## Property Schedules
 
-#### Example:
-
-```ScheduleName_FirstPropertyValue```
-
-* ```My First Multi-Instance Schedule_10```
-
-* ```My First Multi-Instance Schedule_20```
+* These are the default selection when Mult Instance is selected.
+* Multiple **Property Set** are defined at the Master Schedule level
+* Each containing the same set of Property Names with different Values assigned.
 
 ![](../static/imgadvanced/InstanceSchedule1020_SM.png)
 
-### Calling Properties 
+* Each Schedule is unquily named during the build by appending an underscore and value of the first Property defined.
+  * ```ScheduleName_FirstPropertyValue```
 
-* Tokenization allows a Schedule Instance Property to be called in the Command Line when prefixed with ```SI.```
+![](../static/imgadvanced/SM_SchedulePropBuilt.png)
 
-#### Example:
+## Utilizing Properties 
 
-```[[SI.PropertyName]]```
+* Schedule Instance Property are called in the Command Line with ```SI.``` before the property name
+  * ```[[SI.PropertyName]]```
 
-```[[SI.TIME]]```
+![](../static/imgadvanced/CallingProperties_SM.png)
 
-![](../static/imgadvanced/CallingProperties_SM.png)  
+* The Daily Schedule shows each unique Schedule Instance Property instead of a String of Properties
+
+![](../static/imgadvanced/Instance_Definition_SM.png)
 
 ## Enterprise Manager
 
@@ -59,9 +61,9 @@ hide_title: 'false'
 
 ```ScheduleName_FirstPropertyValue```
 
-* ```My First Multi-Instance Schedule_10```
+* ```My First Multi Instance Schedule_10```
 
-* ```My First Multi-Instance Schedule_20```
+* ```My First Multi Instance Schedule_20```
 
 
 ![](../static/imgadvanced/InstanceSchedule1020.png)

@@ -7,41 +7,51 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Job Output Parsing
+# Job Output Parsing
+
+## Purpose
+
+* Job Output Parsing
+  * Prompts OpCon to scan the **Job Output** upon completion and change an Exit Code to a specified **Exit Code** if the specified **String** is found
+  * Can also scan third party log files for specified **Strings**
 
 ![](../static/imgadvanced/job_outputparsing_sm.png)
 
-### Job Output Parsing Components
-
-* Search Operator
-    * Contains
-    * Does Not Contain
-* String to Search
-* Exit Code
-* Custom Application Log
-    * WS_FTP Pro
+## Components
 
 ![](../static/imgadvanced/joboutputparsing_contains_sm.png)  
 
-### Job Output Parsing Results 
+* Search Operator
+  * Contains
+  * Does Not Contain
+* String to Search
+* Exit Code
+* Custom Application Log
+  * such as WS_FTP Pro
 
-* Both **Error** and **Failed** can be found in the Job Output but only one Exit Code can be passed
-* Job Output Parsing Order
-    * Top String's Exit Code
-    * 2nd String's Exit Code
-    * Etc.
-    * Actual Job Output if no Error Messages were found
+## Results 
 
 ![](../static/imgadvanced/joboutputparsingresults.png)
 
+* Both **Error** and **Failed** can be found in the Job Output but only one Exit Code can be passed
+* Job Output Parsing Order
+  * Top String's Exit Code
+  * 2nd String's Exit Code
+  * Etc.
+  * Actual Job Output if no Error Messages were found
+
 ### Custom Application Log
+
+![](../static/imgadvanced/joboutput_custom_log_sm.png)
 
 * Some Applications do not write to the Job Output and instead write to their own Logs
 * The **Custom Application Log** field can tell OpCon which Log File to read when scanning for error messages
 
-![](../static/imgadvanced/joboutput_custom_log_sm.png)
 
-### Enterprise Manager
+
+
+
+## Enterprise Manager
 
 <details>  
 
