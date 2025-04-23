@@ -17,7 +17,7 @@ To create a multiple Multi Instanace Jobs
 
 ### Summary
 
-Create a new scheudle called, **Multi Instance Job Limitation**, with two property sets containing a property called **TIME** with a unquie value in each set. Then create a job to call this property. Then have multiple version of this schedule viewable in the Process screen.
+Create a new schedule called, **Multi Instance Job Limitation**, with three property sets containing a property called **CITY** with a unique value in each set. Then create a workflow that **Copies, Moves, and Deletes** the file named after the **CITY**. Then have multiple instances of this workflow build.
 
 ### Instructions
 

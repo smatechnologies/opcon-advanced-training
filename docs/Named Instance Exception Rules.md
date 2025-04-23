@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# Named Instance Exception Rules
+# Multi Instance - Named Instance Exception Rules
 
 ![](../static/imgadvanced/MINI_Exceptions.png)
 

@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# Named Instance Patterns
+# Multi Instance - Named Instance Patterns
 
 ### Instance Details Exceptions
 

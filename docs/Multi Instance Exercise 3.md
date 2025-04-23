@@ -17,7 +17,7 @@ To see how non-unique property values can create Schedules with unique names cre
 
 ### Summary
 
-Modify the Property Sets created in Exercise 1 to have properties with non-unquie fist values to produce schedules with $#### at the end of the name.
+Modify the Property Sets created in Exercise 1 to have properties with non-unique fist values to produce schedules with $#### at the end of the name.
 
 ### Instructions
 
