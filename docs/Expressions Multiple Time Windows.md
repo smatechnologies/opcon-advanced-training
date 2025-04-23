@@ -22,7 +22,7 @@ hide_title: 'false'
 :::tip Example 1
 
 * A job needs to run between **1:00 am** AND **9:00 am**
-  * ```[[$TIMEhh]] > 01 && [[$TIMEhh]] < 09```
+  * ```ToInt([[$TIMEhh]]) > 01 && ToInt([[$TIMEhh]]) < 09```
 
 :::
 

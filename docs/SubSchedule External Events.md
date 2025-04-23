@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# SubSchedules - External Events
+# Multi Instance - SubSchedules & External Events
 
 ## Dropping Events into MSGIN
 

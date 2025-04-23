@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# Named Instance Creation
+# Multi Instance - Named Instance Creation
 
 ![](../static/imgadvanced/Schedule_Named_Instance_Adv_SM.png)
 

@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# Multi Instance SubSchedules
+# Multi Instance - SubSchedules
 
 ## Background
 

@@ -7,7 +7,9 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-### Machine Groups
+# Multi Instance - Machine Groups
+
+## Overview
 
 * Machine Groups allow Jobs to call a group of Machines instead of a specific Machine
     * A Job can run on the Least Tasked Machine

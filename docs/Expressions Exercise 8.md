@@ -13,11 +13,11 @@ hide_title: 'false'
 
 ### Objective
 
-To create a job that can run in multiple time windows with the use of an expression
+To create a job that can run in multiple time windows with the use of an expression.
 
 ### Summary
 
-Utilize an expression to prevent a job from running unless it is between 2 AM and 5 AM, 11 AM and 2 PM, or 5 PM and 8 PM.
+Utilize an expression and a Property called **FAKETIME** to prevent a job from running unless it is between **2 AM and 5 AM**, **11 AM and 2 PM**, or **5 PM and 8 PM**.
 
 ### Instructions
 
@@ -26,6 +26,7 @@ Utilize an expression to prevent a job from running unless it is between 2 AM an
 1.	Create a Global Property called ```FAKETIME``` with a value of ```0```.
 
 #### Create the Schedule
+
 2.	Create a Schedule named **Multiple Time Windows**.
 
 #### Create the Jobs

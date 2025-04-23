@@ -7,23 +7,41 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# Property Expressions Exercise 10
+# Property Expressions Exercise 11
  
-## Exercise 10: Self Service 
+## Exercise 11: Self Service 
  
 ### Objective
 
- 
+To disable a button with a time window expression.
+
 ### Summary
 
+To disable a button called **Button 1** when it is before **8 AM** or after **5 PM**, if the button is clicked by an end user, or if the Global Property called **SSB ALL** is set to **1**.
 
 ### Instructions
 
-1.	Create an **OpCon Self Service Button** that will be ```Disabled/Enabled``` based on an Expression being ```true``` with the following parameters:
+#### Create the Properties
 
-	* The Button is disabled if the current Time is before ```8 am```.
-	* The Button is disabled if the current Time is after ```5 pm```.
-	* The Button is disabled after it is submitted. 
-		* An expression with a Global Property equaling ```1```.
-	* All Buttons are tied to a Global Property. 
-		* When this Global Property equals ```1```, all buttons are disabled.
+1. Create a Global Proeperty called ```SSB Button1``` with a value of ```0```.
+2. Create a Global Proeperty called ```SSB All``` with a value of ```0```.
+
+#### Create the Button
+
+3. Create a Self Service Button with the following specs:
+  * **Name:** Button 1
+  * **Disable Rule:** ```ToInt([[$TIMEhh]]) < 08 || ToInt([[$TIMEhh]]) > 17 || ToInt([[SSB Button1]]) == 1 || ToInt([[SSB All]]) == 1```
+  * **Event:** $PROPERTY:SET
+	* **Property Name:** SSB Button1
+	* **Value:** 1
+  * Toggle on **Submit Events as OCADM**
+
+#### Manipulate the Button
+
+4. Verify that the button is **NOT** disabled.
+5. Click the button.
+6. Verify that the button **IS** disabled.
+7. Reset the value of the **SSB Button1** property to ```0```
+8. Verify that the button is **NOT** disabled.
+9. Set the value of the **SSB ALL** property to ```1```
+10. Verify that the button **IS** disabled.

@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# SubSchedules & Schedule Instance Property
+# Multi Instance - SubSchedules & Schedule Instance Property
 
 * A Container Job's **Job Instance Properties** are passed to **SubSchedules** during build time
 * **Schedule Instance Properties** can be used by Jobs within a **SubSchedule**

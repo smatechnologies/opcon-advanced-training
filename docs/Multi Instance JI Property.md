@@ -7,13 +7,13 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-## Fully Qualified Job Instance Property
+# Multi Instance - Fully Qualified Job Instance Property
 
 ## Syntax
 
 * **JI.PropertyName.Date.ScheduleName.JobName**
 * Fully-Qualified ScheduJoble Instance Property Names are made up of five parts each seperated with a period, .
-  * SI
+  * JI
   * Property Name
   * Schedule Date
   * Schedule Name
@@ -32,17 +32,17 @@ hide_title: 'false'
 * If being used in an Event or Notification Trigger **ALL PARAMETERS** are Required.
 * A Job Name does not change if the value of the first Job Instance Property is updated after a Schedule the job is in is built
 * If the **Property Name**, **Schedule Name**, or **Job Name** contains a **Period** or is a **SubSchedule** the parameter needs to be wrapped in quotes.
-  * _SI."Property.Name"..ScheduleName.JobName_
-  * _SI.PropertyName.."Schedule.Name".JobName_
-  * _SI.PropertyName..ScheduleName."Job.Name"_
-  * _SI.ScheduleProperty.."ParentSchedule\_Container[SubSchedule]".JobName_
+  * _JI."Property.Name"..ScheduleName.JobName_
+  * _JI.PropertyName.."Schedule.Name".JobName_
+  * _JI.PropertyName..ScheduleName."Job.Name"_
+  * _JI.ScheduleProperty.."ParentSchedule\_Container[SubSchedule]".JobName_
 * All 5 parts need to be defined to successfully reference the Job Instance Property **EXECPT:**
-  * if the Schedule Date will always be the current Date, then you can leave out the Schedule Date qualifier
-    * _SI.PropertyName..ScheduleName.JobName_
-  * if the Schedule Name isn't needed as the Event or Notification is tied to that Schedule
-    * _SI.Propertyname.ScheduleDate..JobName_
-  * if the Job Name isn't needed as the Event or Notification is tied to that Job
-      * _SI.Propertyname.ScheduleDate.ScheduleName_
+  * If the Schedule Date will always be the current Date, then you can leave out the Schedule Date qualifier
+    * _JI.PropertyName..ScheduleName.JobName_
+  * If the Schedule Name isn't needed as the Event or Notification is tied to that Schedule
+    * _JI.Propertyname.ScheduleDate..JobName_
+  * If the Job Name isn't needed as the Event or Notification is tied to that Job
+      * _JI.Propertyname.ScheduleDate.ScheduleName_
 
 :::tip Example
 
@@ -52,6 +52,6 @@ hide_title: 'false'
 * Job Name: ```Job1_10```
 * Property Name: ```TIME```
 
-$PROPERTY:SET,**SI.TIME.[[$DATE]].Training Schedule.Job1_10**,20
+$PROPERTY:SET,**JI.TIME.[[$DATE]].Training Schedule.Job1_10**,20
 
 :::

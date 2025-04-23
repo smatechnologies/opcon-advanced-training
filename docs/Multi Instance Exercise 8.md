@@ -41,7 +41,7 @@ Since we do not have a matching LSAM installed for these Machines, you will neve
 
 #### Create the Schedule
 
-4.  Create a Schedule called **MACHINE GROUPS**.
+4.  Create a Schedule called **Machine Groups**.
 
 #### Create the Jobs
 

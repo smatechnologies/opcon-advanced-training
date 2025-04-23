@@ -32,8 +32,8 @@ Create a multi-instance schedule, **My First Named Instance**, with three machin
     * Enter the ```IP Address``` you are using to Remote Desktop to this training server.
     * Change the Socket Number to ```4100```.
   * In the **Communication Settings** section.
-    * Change the **JORS Port Number** to ```4100``
-  * Click the **Save**** button.
+    * Change the **JORS Port Number** to ```4100```
+  * Click the **Save** button.
 3. Close **Operations**.
 
 #### Create the Schedule

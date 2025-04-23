@@ -7,7 +7,7 @@ hide_title: 'false'
   <meta name="robots" content="noindex, nofollow" />
 </head>
 
-# Named Instance Dependencies and Limitations
+# Multi Instance - Named Instance Dependencies and Limitations
 
 ## Cross Schedule Instance Dependencies
 
