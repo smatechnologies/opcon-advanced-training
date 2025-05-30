@@ -12,7 +12,7 @@ hide_title: 'false'
 ## Overview
 
 * Multiple fields in a Self Service button can utilize Expressions
-  * Diable Rule
+  * Disable Rule
   * Hide Rule
 
 ## Usage

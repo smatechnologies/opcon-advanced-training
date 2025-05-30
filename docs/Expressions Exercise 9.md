@@ -40,7 +40,7 @@ Using time window expression, set up **$PROPERTY:SET** events to set the value o
   * **Frequency:** Mon-Fri-O
   * **Event 1 Specs:**
     * **Event Trigger:** Job Completion Complex Expression
-	* **Expression:**  ```ToInt([[$TIMEhh]]) > 22 && ToInt([[$TIMEhh]]) < 06```
+	* **Expression:**  ```(ToInt([[$TIMEhh]]) > 22 && ToInt([[$TIMEhh]]) < 24) || (ToInt([[$TIMEhh]]) > 00 && ToInt([[$TIMEhh]]) < 06)```
 	* **Event:** $PROPERTY:SET,Shift,1
   * **Event 2 Specs:**
     * **Event Trigger:** Job Completion Complex Expression

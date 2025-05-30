@@ -28,7 +28,7 @@ z cx### Instructions
 #### Create Managed System Properties
 
 2. Create a new version of $SCHEDULE DATE
-  * **NAME:** $SCHEDULE NAMEyyyymmdd
+  * **NAME:** $SCHEDULE DATEyyyymmdd
   * **Value:** yyyymmdd
 3. Create a new version of $TIME
   * **NAME:** $TIMEhhmm

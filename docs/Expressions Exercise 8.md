@@ -36,7 +36,7 @@ Utilize an expression and a Property called **FAKETIME** to prevent a job from r
   * Between ```2``` and ```5``` am
   * Between ```11``` am and ```2``` pm
   * Between ```5``` and ```8``` pm
-  * ```(ToInt([[$TIMEhh]]) > 02 && ToInt([[$TIMEhh]]) < 05) || (ToInt([[$TIMEhh]]) > 11 && ToInt([[$TIMEhh]]) < 14) || (ToInt([[$TIMEhh]]) > 17 && ToInt([[$TIMEhh]]) < 20)```
+  * ```(ToInt([[FAKETIME]]) > 02 && ToInt([[FAKETIME]]) < 05) || (ToInt([[FAKETIME]]) > 11 && ToInt([[FAKETIME]]) < 14) || (ToInt([[FAKETIME]]) > 17 && ToInt([[FAKETIME]]) < 20)```
 
 #### Build the Schedule
 

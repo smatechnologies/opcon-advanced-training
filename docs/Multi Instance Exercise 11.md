@@ -29,10 +29,10 @@ Use a **$JOB:SKIP** event to **SKIP Job 2** in the 15 second subschedule by usin
 
 #### Update the Primary Schedule
 
-4. Add the following **Instance Property** to **Primary Schedule:** 
+4. Add the following **Instance Property** to the existing **Property Group** 
   * ```TIME=15```
 
-#### Create a NULl Job with a $JOB:SKIP Event
+#### Create a NULL Job with a $JOB:SKIP Event
 
 5. Add a **Null Job** to the **Primary Schedule**.
   * **Frequency:** Mon-Fri-N
@@ -47,7 +47,7 @@ Use a **$JOB:SKIP** event to **SKIP Job 2** in the 15 second subschedule by usin
 
 :::note
 
-**should see that Job 2 in the **Primary Schedule_Multi Instance Container Job_15**
+You should see that Job 2 in the **Primary Schedule_Multi Instance Container Job_15** is **SKIPPED**.
 
 ![](../static/imgadvanced/MIEx11Solution1.png)
 

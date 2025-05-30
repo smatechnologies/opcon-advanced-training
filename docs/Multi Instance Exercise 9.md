@@ -32,7 +32,7 @@ Create a multi-instance schedule, **My First Named Instance**, with three machin
     * Enter the ```IP Address``` you are using to Remote Desktop to this training server.
     * Change the Socket Number to ```4100```.
   * In the **Communication Settings** section.
-    * Change the **JORS Port Number** to ```4100```
+    * Change the **JORS Port Number** to ```4110```
   * Click the **Save** button.
 3. Close **Operations**.
 
@@ -84,7 +84,7 @@ Create a multi-instance schedule, **My First Named Instance**, with three machin
   * Click the **+** button
   * In the **Job Exception** dropdown, select **Primary Machine**
   * In the **To Replace** field, enter ```SMATraining```.
-  * In the **Replace With** field, enter ```SMA Advanced Training```.
+  * In the **Replace With** field, enter ```SMAAdvancedTraining```.
   * Click the **Check mark** to save.
 13. Click the **(+)** to the right of the the Job Pattern dropdown.
   * In the **Job Pattern** field, enter ```Upload*```

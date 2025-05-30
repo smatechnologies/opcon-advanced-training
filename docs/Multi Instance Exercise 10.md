@@ -29,7 +29,7 @@ Create a Schedule, **Primary Schedule**, with a multi instance Container, **Mult
 
 2. Create a SubSchedule named **SS SubSchedule**.
 3. Within **SS Subschedule**, create 5 Jobs running in dependent order with the following Command Line: ```timeout /t [[SI.TIME]]```
-  * Job 1 &rarr; Job 1 &rarr; Job 1 &rarr; Job 1 &rarr; Job 1
+  * Job 1 &rarr; Job 2 &rarr; Job 3 &rarr; Job 4 &rarr; Job 5
 
 #### Create the Primary Schedule
 4. Create a Schedule named **Primary Schedule**.
