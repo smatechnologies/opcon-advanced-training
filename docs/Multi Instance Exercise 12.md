@@ -31,7 +31,7 @@ To use an embedded script, **PropAdd**, to submit an external event into **MSGIN
 
 4. Create an **Embedded Script** called **PropAdd** using the following **Command Prompt:**
   * ![](../static/imgadvanced/propertyaddscript_MI_sm.png) 
-  * ```echo $PROPERTY:ADD,%1,%2,%3,%4 > "C:\ProgramData\OpConxps\MSLSAN\MSGIN\PorpSet.txt"```
+  * ```echo $PROPERTY:ADD,%1,%2,%3,%4 > "C:\ProgramData\OpConxps\MSLSAN\MSGIN\PropSet.txt"```
 
 #### Create the Embedded Script Job
 
@@ -39,7 +39,7 @@ To use an embedded script, **PropAdd**, to submit an external event into **MSGIN
   * **Script Arguments:**
     * ```SI.TIME.DATE.FullyQualifiedScheduleName```
       * Use the **Fully-Qualified Schedule Name** for the **SS SubSchedule** with the property **TIME=25**
-      * Remember to comment out quotes, if needed.
+      * Remember to add or comment out quotes when needed.
     * ```45```
     * ```ocadm```
     * ```opconxps```

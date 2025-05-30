@@ -60,6 +60,6 @@ Verify that the new file was created with the name **ACH_A.txt**
 
 #### Manipulate the Property for a Second File
 
-6. Update the source file name and the Global Property to: ```ACHAJ010123456789ZIN202001011234.txt```
+6. Update the source file name and the Global Property to: ```ACHAJ010123456789PZIN202001011234.txt```
 7. Rerun the Job and verify that file ```ACH_Z.txt``` is created.
 

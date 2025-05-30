@@ -36,7 +36,7 @@ Utilizing the ToInt expression to manipulate the name of a file, **PropertyExpre
   * $SCHEDULE DATEmm
   * $SCHEDULE DATEdd
   * $TIMEhh
-  * $TIMEmm
+  * $TIMEnn
 
 #### Create the Jobs
 

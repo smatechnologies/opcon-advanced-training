@@ -37,6 +37,7 @@ Utilizing the Length in combination with SubStr, modify the extention of the fil
 #### Create the Job
 
 2. Create a **Null Job** that will send a Notification that includes the File Name and Length when the job Finishes OK.
+* Email: smauser@congo.local
 * Example: _[[SI.FILENAME]] is [[=Length([[SI.FILENAME]])]] characters in length._ 
 3. Create a **File Copy Job** that will **rename** the file, keeping its root name but **replacing the extension** with ```xlsx```.
 * The CSV files are located in ```C:\Accounting```
