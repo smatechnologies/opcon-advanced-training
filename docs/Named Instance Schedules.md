@@ -12,7 +12,7 @@ hide_title: 'false'
 ![](../static/imgadvanced/Named_Instances.png)
 
 * A Schedule must be marked as **Multi-Instance** for a Named Instance feature to be enabled
-* Allow for Cross-Schedule Dependecies
+* Allow for Cross-Schedule Dependencies
 * Exceptions can be defined for each Multi-Instance Schedule
     * Different Machine
     * Different Start Time (or other Time setting)
@@ -35,7 +35,7 @@ hide_title: 'false'
 
 #### Schedule Named Instances
 
-* Cross-Schedule Dependecies
+* Cross-Schedule Dependencies
 * Exceptions in each Instance of Multi-Instance Schedule
     * Different Machine
     * Different Start Time (or other Time setting)

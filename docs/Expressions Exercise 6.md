@@ -13,11 +13,11 @@ hide_title: 'false'
  
 ### Objective
 
-To use an OpCon Instance to combine a Schedule Instance property with another string to create another Property Name.
+To use an **OpCon Instance** to combine a **Schedule Instance Property** with another string to create another Property Name.
  
 ### Summary
 
-Utilizing an OpCon Instance to create and use a Property Name that is the combination of 2 values that will resolve to the wanted parameter value.
+Utilizing an **OpCon Instance** to create and use a Property Name that is the combination of 2 values that will resolve to the wanted parameter value.
 
 ### Instructions
 
@@ -57,7 +57,7 @@ Utilizing an OpCon Instance to create and use a Property Name that is the combin
 
 :::note
 
-Verify that 2 scheudles buiild, PROD and DEV and that all jobs ran successfully
+Verify that 2 schedules build, PROD and DEV and that all jobs ran successfully
 
 ![](../static/imgadvanced/ExpressEx6Solution.png)
 

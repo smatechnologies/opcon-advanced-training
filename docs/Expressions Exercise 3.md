@@ -13,11 +13,11 @@ hide_title: 'false'
  
 ### Objective
 
-To use SubStr to capture a part of the file name.
+To use **SubStr** to capture a part of the file name.
  
 ### Summary
 
-Utilizing the SubStr expression to capture a single character in the file name, **ACHAJ010123456789PAIN202001011234.txt**, and use that character to rename the file in a second job.
+Utilizing the **SubStr** expression to **capture a single character** in the file name, **ACHAJ010123456789PAIN202001011234.txt**, and use that character to rename the file in a second job.
 
 ### Instructions
 

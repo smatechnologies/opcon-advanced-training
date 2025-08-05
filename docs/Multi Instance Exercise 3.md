@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To see how non-unique property values can create Schedules with unique names created by the system.
+To see how **non-unique property values** can create **Schedules with unique names** created by the system.
 
 ### Summary
 

@@ -31,7 +31,7 @@ Utilize an expression and a Property called **FAKETIME** to prevent a job from r
 
 #### Create the Jobs
 
-3. Create a NULL Job that contains is constained by three Time windows.
+3. Create a NULL Job that is constrained by three Time windows.
   * Use the ```[[FAKETIME]]``` Global Property that will allow us to manually update the Time.
   * Between ```2``` and ```5``` am
   * Between ```11``` am and ```2``` pm
@@ -57,7 +57,7 @@ Utilize an expression and a Property called **FAKETIME** to prevent a job from r
 15. Verify that the Job is waiting.
 16. Update the Property to a value between ```17``` and ```20```.
 17. Verify that the Job ran again.
-18. Update the Property to a value btween ```20``` and ```24```. 
+18. Update the Property to a value between ```20``` and ```24```. 
 19. Restart the Job. 
 20. Verify that the Job is waiting.
 

@@ -13,11 +13,11 @@ hide_title: 'false'
 
 ### Objective
 
-To create use a Named Instances to build 6 unquie schedules and unquie jobs.
+To create use a Named Instances to build 6 unique schedules and unique jobs.
 
 ### Summary
 
-Using **Named Istances**, create **Multi Instance Schedules** that will modify the jobs within them to match the following Patterns and Exceptions.
+Using **Named Instances**, create **Multi Instance Schedules** that will modify the jobs within them to match the following Patterns and Exceptions.
 
 **Job Patterns and Exceptions**
   

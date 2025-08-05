@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To create a multiple Multi Instanace Jobs
+To create a **multiple Multi Instance Jobs**.
 
 ### Summary
 

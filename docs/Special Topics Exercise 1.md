@@ -18,7 +18,7 @@ To define Advanced Failure Criteria on a job.
 
 ### Summary
 
-Creat a schedule, **Advanced Failure**, that contains a job that will **Finish OK** when the job returns a **500** for an exit code. Then have the exit code of **500** trigger a **$JOB:SKIP** event to skip the dependent job.
+Create a schedule, **Advanced Failure**, that contains a job that will **Finish OK** when the job returns a **500** for an exit code. Then have the exit code of **500** trigger a **$JOB:SKIP** event to skip the dependent job.
 
 ### Instructions
 

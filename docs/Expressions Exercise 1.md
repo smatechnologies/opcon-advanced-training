@@ -13,11 +13,11 @@ hide_title: 'false'
  
 ### Objective
 
-To use ToUpper and ToLower to manipulate the name of a file.
+To use **ToUpper** and **ToLower** to manipulate the name of a file.
  
 ### Summary
 
-Utilizing ToUpper and ToLower expressions to manipulate the name of a file, **PropertyExpressions.txt**, so that it reflects the month as part of the name.
+Utilizing **ToUpper** and **ToLower** expressions to manipulate the name of a file, **PropertyExpressions.txt**, so that it reflects the month as part of the name.
 
 ### Instructions
 

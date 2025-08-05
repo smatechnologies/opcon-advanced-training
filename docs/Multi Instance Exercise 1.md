@@ -13,11 +13,11 @@ hide_title: 'false'
 
 ### Objective
 
-To create a Multi Instance Schedule
+To create a **Multi Instance Schedule**
 
 ### Summary
 
-Create a multi instance scheudle called, **My First Multi Instance Schedule**, with two property sets containing a property called **TIME** with a unquie value in each set. Then create a job to call this property. Then have multiple version of this schedule viewable in the Process screen.
+Create a multi instance schedule called, **My First Multi Instance Schedule**, with two property sets containing a property called **TIME** with a unique value in each set. Then create a job to call this property. Then have multiple version of this schedule viewable in the Process screen.
 
 ### Instructions
 

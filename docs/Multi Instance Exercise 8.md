@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To utilize a Machine Groupe to build multiple copies of a job.
+To utilize a **Machine Group** to build **multiple copies of a job**.
 
 ### Summary
 

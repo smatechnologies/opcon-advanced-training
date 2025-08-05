@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To create a Multi Instance Schedule that will trigger 6 individual scheduls to be built.
+To create a Multi Instance Schedule that will trigger 6 individual schedules to be built.
 
 ### Summary
 

@@ -87,7 +87,7 @@ module.exports = {
   },
   {
     type: 'category',
-    label: 'Expression Depenencies',
+    label: 'Expression Dependencies',
     collapsed: true,
     items: [
       'Expressions Dependencies',

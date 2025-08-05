@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To use an event to affect a job in a subschedule.
+To **use an event** to affect a job in a subschedule.
 
 ### Summary
 
@@ -63,7 +63,7 @@ You should see that Job 2 in the **Primary Schedule_Multi Instance Container Job
 
 <details>
 
-1.	Record the fully qualified Schedule name of the **SUBSCHEUDLE** using the **Schedule Instance** ```TIME``` of ```15``` created in Exercise 10.
+1.	Record the fully qualified Schedule name of the **SUBSCHEDULE** using the **Schedule Instance** ```TIME``` of ```15``` created in Exercise 10.
 2.	If the Schedule is still running, cancel all Jobs to close out the Schedules and **delete** the **PRIMARY SCHEDULE** from the Daily list.
 3.	Add the following **Schedule Instance Property** to **PRIMARY SCHEDULE:** ```TIME=15```
 4.	Add a **Null Job** to the **Primary Schedule**.

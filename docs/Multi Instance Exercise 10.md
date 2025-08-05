@@ -13,11 +13,11 @@ hide_title: 'false'
 
 ### Objective
 
-To utilize Job Instance Properties to build 2 SubSchedules.
+To utilize **Job Instance Properties** to **build 2 SubSchedules**.
 
 ### Summary
 
-Create a Schedule, **Primary Schedule**, with a multi instance Container, **Multi-Instance Container Job**, that will create 2 subschedules with different TIME Properties, ```15``` and ```20```, that propogate down to the SubSchedule, **SS SubSchedule**, as SIs, ```SI.TIME```. 
+Create a Schedule, **Primary Schedule**, with a multi instance Container, **Multi-Instance Container Job**, that will create 2 subschedules with different TIME Properties, ```15``` and ```20```, that propagate down to the SubSchedule, **SS SubSchedule**, as SIs, ```SI.TIME```. 
 
 ### Instructions
 

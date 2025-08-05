@@ -18,21 +18,21 @@ It returns the length of a specified Property or value
 Length(value)
 
 * **value:** The Property or value that the length is needed for
-  * can use arithmatic in this field
+  * can use arithmetic in this field
 
 ### Usage:
 
 * Move a file while changing the file extension but keeping the rest of the File Name same
 * Combine Length Expression, Arithmetic Expression, and SubString to automatically keep the full Name but change extension
-* An Expression followed by ```.<extention>``` will change the extension of the file while keeping the original base name
+* An Expression followed by ```.<extension>``` will change the extension of the file while keeping the original base name
 
 :::tip Example
 
-* To remove the extention off the file name, we would capture the file name in a property,
+* To remove the extension off the file name, we would capture the file name in a property,
   * ```[[SI.FILENAME]]``` = Test.txt
-* Use the Length expression to find the total legnth of the file name.
+* Use the Length expression to find the total length of the file name.
   * ```[[=Length([[SI.FILENAME]])]]``` = 8
-* Use subtration to remove the length of the extention of the file name from the full length
+* Use subtraction to remove the length of the extension of the file name from the full length
   * ```[[=(Length([[SI.FILENAME]])-4)]]``` = 4
 * All steps can be combined into one expression
   * ```[[=SubStr([[SI.FILENAME]],0,Length([[SI.FILENAME]])-4)]]``` = Test

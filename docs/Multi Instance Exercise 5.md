@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To update the value of a specific Schedule Instance Property using a Property Set Event.
+To **update the value** of a specific **Schedule Instance Property** using a **Property Set Event**.
 
 ### Summary
 
@@ -32,7 +32,7 @@ Change the Property Value for **TIME** from **10** to **99** in the Schedule ref
   * **Event**
     * **Send Event On:** Job Status
     * **Job Status:** Finished OK
-    * **Event Templete:** $PROPERTY:SET
+    * **Event Template:** $PROPERTY:SET
       * **Property Name:** ```SI.TIME.[[$DATE]].My First Multi Instance Schedule_10-ACCOUNTING```
       * **Initial Value:** ```99```
 
