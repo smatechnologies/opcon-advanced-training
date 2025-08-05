@@ -13,11 +13,11 @@ hide_title: 'false'
  
 ### Objective
 
-To use ToInt to manipulate the name of a file with different types of equations.
+To use **ToInt** to manipulate the name of a file with different types of equations.
  
 ### Summary
 
-Utilizing the ToInt expression to manipulate the name of a file, **PropertyExpressions.txt**, so that it reflects the solution of various equations as part of the name.
+Utilizing the **ToInt** expression to manipulate the name of a file, **PropertyExpressions.txt**, so that it reflects the solution of various equations as part of the name.
 
 ### Instructions
 
@@ -49,7 +49,7 @@ Utilizing the ToInt expression to manipulate the name of a file, **PropertyExpre
   * **Path and Current File Name:** ```C:\Expressions\PropertyExpressions_Addition.txt```  
   * **New File Name:** ```PropertyExpressions_Addition_[[=ToInt([[$SCHEDULE DATEmm]]) + ToInt([[$TIMEhh]])]].txt```
   * **Frequency:** Mon-Fri-O 
-4. Copy the **Addition Job** to create the following jobs that point to the corresponding file. Use the Properties created in Step 2 to create a unquie New File Name according the job name.
+4. Copy the **Addition Job** to create the following jobs that point to the corresponding file. Use the Properties created in Step 2 to create a unique New File Name according the job name.
   * Subtraction Job
     * ```PropertyExpressions_Subtraction.txt```
   * Multiplication Job

@@ -13,11 +13,11 @@ hide_title: 'false'
 
 ### Objective
 
-To create a Multi Instance Job
+To create a **Multi Instance Job**.
 
 ### Summary
 
-Create a multi instance job called, **Copy Logs**, with eight property sets containing a property called **FILENAME** with a unquie value in each set. Then have multiple version of this job be built during the build of the Schedule. then validate that the files were copied with a new name consisting of the date, time, and original file name.
+Create a multi instance job called, **Copy Logs**, with eight property sets containing a property called **FILENAME** with a unique value in each set. Then have multiple version of this job be built during the build of the Schedule. then validate that the files were copied with a new name consisting of the date, time, and original file name.
 
 z cx### Instructions
 

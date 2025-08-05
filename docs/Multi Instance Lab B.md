@@ -48,7 +48,7 @@ A list of the major United States warehouses along with their ID and report path
 
 ### Instructions
 
-* Create a scheudle called **Congo Warehouse Batch Reports**
+* Create a schedule called **Congo Warehouse Batch Reports**
 * Create three Jobs in the Schedule:
   * Job 1: **Nightly Batch**
     * Create a nightly batch Job closing out the business day for all of Congo Online Retail.

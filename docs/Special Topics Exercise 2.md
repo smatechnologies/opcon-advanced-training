@@ -25,7 +25,7 @@ hide_title: 'false'
 
 1.	Create a DOS script with the following text:
   * ```echo “This is an example of Job Output Parsing finding an Error and in the Job Output and place the Job in a Failed status.”```
-2. Save this script in ```C:\scripts``` with a ```.bat``` extention.
+2. Save this script in ```C:\scripts``` with a ```.bat``` extension.
   * You can name it whatever you want.
 
 #### Create a Schedule

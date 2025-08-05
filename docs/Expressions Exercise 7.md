@@ -17,7 +17,7 @@ To use a combination of Expressions to remove the need for a Threshold
  
 ### Summary
 
-Utilizing an Expression to update the value of a Schedule Instance Property. Then use that SI in an expression to allow a job to run when it has a certain value.
+Utilizing an Expression to **update** the value of a **Schedule Instance Property**. Then use that SI in an expression to allow a job to run when it has a certain value.
 
 ### Instructions
 

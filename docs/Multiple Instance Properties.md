@@ -13,7 +13,7 @@ hide_title: 'false'
 
 * Multiple **Property Sets** are allowed **ONLY** if a Schedule is marked as **Multi Instance**
 * Each Property Set can have multiple properties defined but they **MUST** contain the same set of **Property Names**.
-* When there are multiple properties defined in a set each property is seperated with a semi-colon (;)
+* When there are multiple properties defined in a set each property is separated with a semi-colon (;)
 
 ![](../static/imgadvanced/SM_MultipleProperties.png)
 

@@ -15,8 +15,8 @@ ToUpper and ToLower Expressions can be used to alter the case of a string to be 
 
 ## Syntax
 
-* **ToUpper:** Converts a string to UPPER CASE
-* **ToLower:** Converts a string to lower case
+* **ToUpper(value):** Converts a string to UPPER CASE
+* **ToLower(value):** Converts a string to lower case
 
 ## Usage
 
@@ -26,7 +26,7 @@ ToUpper and ToLower Expressions can be used to alter the case of a string to be 
 
 :::tip Example
 
-When **$SCHEUDLE DATEmmm** properties get resolved the result is Mmm.
+When **$SCHEDULE DATEmmm** properties get resolved the result is Mmm.
 
 ```[[$SCHEDULE DATEmmm]]``` = **Jan**, **Feb**, **Mar**, ect.
 

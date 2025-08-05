@@ -12,7 +12,7 @@ hide_title: 'false'
 ## Syntax
 
 * **JI.PropertyName.Date.ScheduleName.JobName**
-* Fully-Qualified ScheduJoble Instance Property Names are made up of five parts each seperated with a period, .
+* Fully-Qualified Job Instance Property Names are made up of five parts each separated with a period, .
   * JI
   * Property Name
   * Schedule Date
@@ -21,7 +21,7 @@ hide_title: 'false'
 
 ## Parameters  
 
-* **JI:** is Requred and indicates a Job Instance Property
+* **JI:** is Required and indicates a Job Instance Property
 * **PropertyName:** is Required and is the name of the Property defined on the Job
 * **Date:** is the Scheduled Date of the Job the Job Instance Property is defined on
 * **ScheduleName:** is the Fully Qualified Schedule Name where the Schedule Instance Property is defined
@@ -36,13 +36,13 @@ hide_title: 'false'
   * _JI.PropertyName.."Schedule.Name".JobName_
   * _JI.PropertyName..ScheduleName."Job.Name"_
   * _JI.ScheduleProperty.."ParentSchedule\_Container[SubSchedule]".JobName_
-* All 5 parts need to be defined to successfully reference the Job Instance Property **EXECPT:**
+* All 5 parts need to be defined to successfully reference the Job Instance Property **EXCEPT:**
   * If the Schedule Date will always be the current Date, then you can leave out the Schedule Date qualifier
     * _JI.PropertyName..ScheduleName.JobName_
   * If the Schedule Name isn't needed as the Event or Notification is tied to that Schedule
-    * _JI.Propertyname.ScheduleDate..JobName_
+    * _JI.PropertyName.ScheduleDate..JobName_
   * If the Job Name isn't needed as the Event or Notification is tied to that Job
-      * _JI.Propertyname.ScheduleDate.ScheduleName_
+      * _JI.PropertyName.ScheduleDate.ScheduleName_
 
 :::tip Example
 

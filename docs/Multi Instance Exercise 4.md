@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To give each Property Set a unique first value.
+To give each **Property Set** a **unique first value**.
 
 ### Summary
 
@@ -31,7 +31,7 @@ Modify the Property Sets created in Exercise 1 to have a unique first value in e
 6. Change the **Value** from **10** to ```10-ACCOUNTING```
 7. Click the **Checkmark to save**
 8. Click the **+** to add the **TIME** property and its value of **10** back to the set making sure to save it.
-9. Repeat sets 3 - 8 to modify the 5 remaining **Property Sets** to refelect unquie first values of:
+9. Repeat sets 3 - 8 to modify the 5 remaining **Property Sets** to reflect unique first values of:
   * ```NAME=20-ACCOUNTING```
   * ```NAME=10-MARKETING```   
   * ```NAME=20-MARKETING```

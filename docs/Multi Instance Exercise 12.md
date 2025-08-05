@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To use an External Event change the property of a SubSchedule
+To use an **External Event** change the property of a **SubSchedule**
 
 ### Summary
 
@@ -31,7 +31,7 @@ To use an embedded script, **PropAdd**, to submit an external event into **MSGIN
 
 4. Create an **Embedded Script** called **PropAdd** using the following **Command Prompt:**
   * ![](../static/imgadvanced/propertyaddscript_MI_sm.png) 
-  * ```echo $PROPERTY:ADD,%1,%2,%3,%4 > "C:\ProgramData\OpConxps\MSLSAN\MSGIN\PropSet.txt"```
+  * ```echo $PROPERTY:ADD,%1,%2,%3,%4 > "C:\ProgramData\OpConxps\MSLSAM\MSGIN\PropSet.txt"```
 
 #### Create the Embedded Script Job
 

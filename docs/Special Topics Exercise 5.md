@@ -13,7 +13,7 @@ hide_title: 'false'
  
 ### Objective
 
-To use offsets to calculate variartions of dates or times.
+To use offsets to calculate variations of dates or times.
  
 ### Summary
 
@@ -37,7 +37,7 @@ Use offsets to manipulate how a $SCHEDULE DATE is resolved by using the same pro
 
 #### Create Jobs
 
-4. Create 4 Enbedded Script Jobs calling the Echo script. 
+4. Create 4 Embedded Script Jobs calling the Echo script. 
   * Job 1: One using an offset of +/- X **days**.
   * Job 2: One using an offset of +/- X **months**.
   * Job 3: One using an offset of +/- X **working days**.

@@ -9,10 +9,10 @@ hide_title: 'false'
 
 # Fully Qualified Schedule Instance Property Names
 
-## Symtax
+## Syntax
 
 * **SI.PropertyName.Date.ScheduleName**
-* Fully-Qualified Schedule Instance Property Names are made up of four parts each seperated with a period.
+* Fully-Qualified Schedule Instance Property Names are made up of four parts each separated with a period.
   * SI
   * Property Name
   * Schedule Date
@@ -33,11 +33,11 @@ hide_title: 'false'
   * _SI."Property.Name"..ScheduleName_
   * _SI.PropertyName.."Schedule.Name"_
   * _SI.ScheduleProperty.."ParentSchedule\_Container[SubSchedule]"_
-* All 4 parts need to be defined to successfully reference the Schedule Instance Property **EXECPT:**
+* All 4 parts need to be defined to successfully reference the Schedule Instance Property **EXCEPT:**
   * if the Schedule Date will always be the current Date, then you can leave out the Schedule Date qualifier
     * _SI.PropertyName..ScheduleName_
   * if the Schedule Name isn't needed as the Event or Notification is tied to that Schedule
-    * _SI.Propertyname.ScheduleDate_
+    * _SI.PropertyName.ScheduleDate_
 
 :::tip Example
 

@@ -23,8 +23,8 @@ To disable a button called **Button 1** when it is before **8 AM** or after **5 
 
 #### Create the Properties
 
-1. Create a Global Proeperty called ```SSB Button1``` with a value of ```0```.
-2. Create a Global Proeperty called ```SSB All``` with a value of ```0```.
+1. Create a Global Property called ```SSB Button1``` with a value of ```0```.
+2. Create a Global Property called ```SSB All``` with a value of ```0```.
 
 #### Create the Button
 

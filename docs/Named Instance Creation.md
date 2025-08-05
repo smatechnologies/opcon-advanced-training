@@ -13,7 +13,7 @@ hide_title: 'false'
 
 * Select the **Named Instance** radio button on the **Instance Definition** tab
 * Define the **Instance Name** in the **Instance Definition** dropdown.
-    * Instance Names are saved and can be resused, but Properties and Exceptions are not saved with the Instance Name
+    * Instance Names are saved and can be reused, but Properties and Exceptions are not saved with the Instance Name
 * All the Instances can share the same Schedule Instance Properties
 
 
@@ -26,7 +26,7 @@ hide_title: 'false'
 * Select the **Named Instance** radio button on the **Instance Definition** tab
 
 * Create or Select the Instance Name in the Instance Definition menu on the left
-    * Instance Names are saved and can be resused, but Properties and Exceptions are not saved with the Instance Name
+    * Instance Names are saved and can be reused, but Properties and Exceptions are not saved with the Instance Name
 * Create all Schedule Instance Properties
     * Separate by fields instead of storing in a String separated by semicolons
 

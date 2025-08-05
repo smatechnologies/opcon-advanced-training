@@ -11,13 +11,13 @@ hide_title: 'false'
 
 ## Overview
 
-* Expressions can be used in places where job dependencies can't be used effectivly.
+* Expressions can be used in places where job dependencies can't be used effectively.
 * Expressions have to be a true statement in order for the dependency to be resolved.
 
 ## Usage
 
 * Jobs can run in Multiple Time windows
-* Preceeding Job(s) need to be in a specific status in order to run
+* Preceding Job(s) need to be in a specific status in order to run
 * We need to count something and use that count to prevent a job from running
 
 :::tip Examples

@@ -13,11 +13,11 @@ hide_title: 'false'
  
 ### Objective
 
-To use Length to change the extention of a file name.
+To use **Length** to change the extension of a file name.
  
 ### Summary
 
-Utilizing the Length in combination with SubStr, modify the extention of the files that are specified. These files will be changed from ```.csv``` to ```.xlsx```.
+Utilizing the **Length** in combination with **SubStr**, modify the extension of the files that are specified. These files will be changed from ```.csv``` to ```.xlsx```.
 
 ### Instructions
 
@@ -50,7 +50,7 @@ Utilizing the Length in combination with SubStr, modify the extention of the fil
 
 :::note
 
-Verify that the files were copied and have the correct extention on them.
+Verify that the files were copied and have the correct extension on them.
 
 ![](../static/imgadvanced/ExpressEx4Solution.png)
 

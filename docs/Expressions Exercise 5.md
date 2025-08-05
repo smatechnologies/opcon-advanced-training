@@ -13,11 +13,11 @@ hide_title: 'false'
  
 ### Objective
 
-To use Expr to evaluate the value of a property when it contains properties in its value.
+To use **Expr** to evaluate the value of a property when it contains properties in its value.
  
 ### Summary
 
-Utilizing the Expr expression create and use a Property that has a value with another Property in it so that a file can be copied into that path.
+Utilizing the **Expr** expression create and use a Property that has a value with another Property in it so that a file can be copied into that path.
 
 ### Instructions
 

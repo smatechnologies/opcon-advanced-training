@@ -13,7 +13,7 @@ hide_title: 'false'
 
 ### Objective
 
-To utilize Named Instances to have 2 schedules built with different command lines.
+To utilize **Named Instances** to have **2 schedules built** with different command lines.
 
 ### Summary
 
@@ -26,7 +26,7 @@ Create a multi-instance schedule, **My First Named Instance**, with three machin
 1. Open the **Agents** screen from the **Library**.
 2. Click the **Add** button.
   * In the **Name** field, enter ``SMAAdvancedTraining``.
-  * In the **Machine Type** dorpdown, select ```Windows```.
+  * In the **Machine Type** dropdown, select ```Windows```.
   * Click **Save**
   * In the **General Settings** section:
     * Enter the ```IP Address``` you are using to Remote Desktop to this training server.
@@ -52,7 +52,7 @@ Create a multi-instance schedule, **My First Named Instance**, with three machin
   * Click the **check mark** to save the instance name.
   * Repeat the last 3 steps to create a **Basic Training** Instance.
 
-#### Define the Scheudle Instance Properties
+#### Define the Schedule Instance Properties
 
 7. In the **Selected Named Instance** dropdown, select **Advanced Training**
   * Click the large green **+** to add a **Property**.

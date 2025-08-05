@@ -13,11 +13,11 @@ hide_title: 'false'
 
 ### Objective
 
-To have multiple properties per Property Set.
+To have **multiple properties** per **Property Set**.
 
 ### Summary
 
-Modify the Property Sets created in Exercise 1 to have multple properties in each set and update the jobs to reflect the use of the additional property.
+Modify the Property Sets created in Exercise 1 to have multiple properties in each set and update the jobs to reflect the use of the additional property.
 
 ### Instructions
 

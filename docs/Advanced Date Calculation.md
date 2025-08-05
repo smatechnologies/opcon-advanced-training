@@ -35,7 +35,7 @@ hide_title: 'false'
   * ```y``` = Julian Date with leading zeros suppressed
   * ```hh``` = 2-digit Hour
   * ```nn``` = 2-digit Minutes
-    * can use ```mm``` if preceeded by ```hh```
+    * can use ```mm``` if preceded by ```hh```
 
 ## Property Offsets
 

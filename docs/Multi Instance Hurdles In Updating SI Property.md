@@ -43,13 +43,13 @@ hide_title: 'false'
 
 In this command line we are calling SMAParse to supply the value found to the Schedule Instance Property **TIME** in a Schedule called **Training.Schedule_10**. 
 
-**Good Command Line wtih the quotes commented out:**
+**Good Command Line with the quotes commented out:**
 * SMAParseFile.exe -d "[[path2file]]\example.txt" -r [[path2rule]]\rule.txt -p "Token=SI.TIME.[[$DATE]].**\"Training.Schedule_10\"**"
 * **Event Submitted:** $PROPERTY:SET,SI.TIME.[[$DATE]].**"Training.Schedule_10"**,####
 
 If we were to leave out the backslashes in the command line for the -p parameter, the event would **NOT** be processes because the Schedule Name wouldn't be found due to the period.
 
-**Bad Command Line wtih the quotes NOT  commented out:**
+**Bad Command Line with the quotes NOT  commented out:**
 * SMAParseFile.exe -d "[[path2file]]\example.txt" -r [[path2rule]]\rule.txt -p "Token=SI.TIME.[[$DATE]].**"Training.Schedule_10"**"
 * **Event Submitted:** $PROPERTY:SET,SI.TIME.[[$DATE]].**Training.Schedule_10**,####
 

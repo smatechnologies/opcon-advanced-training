@@ -18,7 +18,7 @@ hide_title: 'false'
   * Wildcards are supported
   * Multiple Patterns can be applied to a single Schedule
     * Patterns are listed alphabetically
-    * Patterns are appled top to bottom with subsequent Patterns overriding preceding Patterns
+    * Patterns are applied top to bottom with subsequent Patterns overriding preceding Patterns
 * Exception Rules:
   * Define replacements which will take place
   * Each Pattern can have several Exception Rules
@@ -39,7 +39,7 @@ hide_title: 'false'
     * Wildcards are supported
     * Multiple Patterns can be applied to a single Schedule
         * Patterns are listed alphabetically
-        * Patterns are appled top to bottom with subsequent Patterns overriding preceding Patterns
+        * Patterns are applied top to bottom with subsequent Patterns overriding preceding Patterns
 
 * Exception Rules:
     * Define replacements which will take place

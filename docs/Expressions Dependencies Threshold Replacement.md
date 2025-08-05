@@ -23,10 +23,10 @@ hide_title: 'false'
 :::tip Example
 
 * We need to count something but don't want to use a Threshold
-* We can use a Scheudle Instance and a $PROPERTY:SET event to increment the SI value
+* We can use a Schedule Instance and a $PROPERTY:SET event to increment the SI value
   * **SI:** FILECOUNT with a Value of ```0```
   * **Event:** $PROPERTY:SET,SI.FILECOUNT,[[=ToInt([[SI.FILECOUNT]]) + 1]]
-* This confinds the count to this instance of the Schedule and doesn't require a reset at the end of the process
+* This confines the count to this instance of the Schedule and doesn't require a reset at the end of the process
 * We can then use ```ToInt([[SI.FILECOUNT]]) == N``` as an Expression Dependency
 
 :::

@@ -43,7 +43,7 @@ hide_title: 'false'
 
 :::note
 
-You should see the following jobs scheudled as follows: 
+You should see the following jobs scheduled as follows: 
 
 * **NULL Job 1**
 

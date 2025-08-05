@@ -23,8 +23,8 @@ hide_title: 'false'
 ## Jobs Instance Property Sets
 
 * Create Job Instance Property Sets using the Instance Definition tab within Job Master
-* Rules that apply to Multi Instance Scheudles also applly to Multi Instance Jobs
-* When there are multiple properties defined in a set each property is seperated with a semi-colon (;)
+* Rules that apply to Multi Instance Schedules also apply to Multi Instance Jobs
+* When there are multiple properties defined in a set each property is separated with a semi-colon (;)
   * FileName=test01.txt**;**Path=C:\tmp
 * A Job will be named using the value of the first Instance Property defined in a String
   * JobName_**JI-Value**

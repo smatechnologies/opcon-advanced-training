@@ -11,7 +11,7 @@ hide_title: 'false'
 
 ## Overview
 
-* There are three types of Mulit Instance Schedules
+* There are three types of Multi Instance Schedules
   * Property Schedules
   * Machine Group Schedules
   * Named Instances Schedules 
@@ -20,13 +20,13 @@ hide_title: 'false'
 
 ## Property Schedules
 
-* These are the default selection when Mult Instance is selected.
+* These are the default selection when Multi Instance is selected.
 * Multiple **Property Set** are defined at the Master Schedule level
 * Each containing the same set of Property Names with different Values assigned.
 
 ![](../static/imgadvanced/InstanceSchedule1020_SM.png)
 
-* Each Schedule is unquily named during the build by appending an underscore and value of the first Property defined.
+* Each Schedule is uniquely named during the build by appending an underscore and value of the first Property defined.
   * ```ScheduleName_FirstPropertyValue```
 
 ![](../static/imgadvanced/SM_SchedulePropBuilt.png)
