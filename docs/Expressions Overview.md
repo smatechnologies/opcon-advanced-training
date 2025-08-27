@@ -16,7 +16,7 @@ hide_title: 'false'
 * Manipulating Property Values
 * Jobs can be dependent on an Expression being true
 * OpCon Events can be sent based on an Expression being true
-* SMA Self Service Buttons can be hidden or disabled if an Expression is true
+* Self Service Buttons can be hidden or disabled if an Expression is true
 
 :::info Note
 

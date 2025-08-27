@@ -20,7 +20,7 @@ hide_title: 'false'
 * This allows multiple ways to disable buttons:  
   * Disable when a Button is pressed  
   * Disable all Buttons for a Department  
-  * Disable all Buttons within SMA Self Service
+  * Disable all Buttons within Self Service
 
 :::tip Example
 
@@ -38,13 +38,13 @@ hide_title: 'false'
 
 <details>
 
-Both the **Hide** and **Disable** features in SMA Self Service can be driven by Expressions
+Both the **Hide** and **Disable** features in Self Service can be driven by Expressions
 
 This allows multiple ways to disable buttons:  
 
 * Disable when a Button is pressed  
 * Disable all Buttons for a Department  
-* Disable all Buttons within SMA Self Service  
+* Disable all Buttons within Self Service  
 
 The value of the Global Property must be set to true to release functionality
 

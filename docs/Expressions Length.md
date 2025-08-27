@@ -41,6 +41,6 @@ Length(value)
 
 :::note
 
-Most SMA File Monitors, ie. File Arrival and SMA Resource Monitor, have ways to pass the Root of a File Name while dropping the extension.
+Most File Monitors, ie. File Arrival and SMA Resource Monitor, have ways to pass the Root of a File Name while dropping the extension.
 
 :::

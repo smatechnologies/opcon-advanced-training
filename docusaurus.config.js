@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'SMA Technologies Help',
+  title: 'Continuous Help',
   tagline: 'OpCon Advanced Training',
   url: 'https://help.smatechnologies.com',
   baseUrl: '/training/opcon-advanced/',
@@ -13,14 +13,14 @@ module.exports = {
     navbar: {
       title: 'Help',
       logo: {
-        alt: 'SMA Technologies Help Logo',
+        alt: 'Continuous Help Logo',
         src: 'img/logo.svg',
         href: 'https://help.smatechnologies.com',
       },
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} SMA Technologies.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Continuous.`,
     },
   },
   presets: [

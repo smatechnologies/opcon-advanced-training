@@ -11,7 +11,7 @@ hide_title: 'false'
 
 ## Dropping Events into MSGIN
 
-* SMA has many utilities that can update Properties via ```MSGIN``` passing Event parameters as Command Line arguments
+* Continuous has many utilities that can update Properties via ```MSGIN``` passing Event parameters as Command Line arguments
 * Spaces in each parameter must be quoted or the program will be thrown off
 * Quotes are removed by the OS when passing parameters to the script
 * This can ruin quoted parameters when accounting for periods in Schedule Names

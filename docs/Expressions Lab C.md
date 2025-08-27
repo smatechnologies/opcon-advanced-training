@@ -11,7 +11,7 @@ hide_title: 'false'
 
 Create a Schedule with a single Schedule Instance Property that has a value of ```0```. 
 
-Create an SMA Self Service button that will update that Schedule Instance Property to a value of ```1```. 
+Create an Self Service button that will update that Schedule Instance Property to a value of ```1```. 
 
 Create a Job within that Schedule that can only run during the following Times:  
 
