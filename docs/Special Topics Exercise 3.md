@@ -9,13 +9,15 @@ hide_title: 'false'
 
 # Special Topics Exercise 3
  
-## Exercise 2: Advanced Frequency Settings
+## Exercise 3: Advanced Frequency Settings
  
 ### Objective
- 
+
+Create multiple Jobs utilizing Advanced Frequency settings. 
 
 ### Summary
  
+Create Null Jobs utilizing Exclude, Start and Stop Scheduling, and Include Scheduling then view and verify the Calendar output in the Forecast screen.
 
 ### Instructions
  

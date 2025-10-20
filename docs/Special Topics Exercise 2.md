@@ -8,16 +8,17 @@ hide_title: 'false'
 </head>
 
 # Special Topics Exercise 2
+
  
 ## Exercise 2: Job Output Parsing
  
 ### Objective
  
-
+Use Parsing Criteria to find an error and place the Job in a Failed status.
  
 ### Summary
  
-
+Create a Windows Job and set Job Parsing Criteria to search output for potential defined errors and set the Job to Failed status if criteria are detected.
  
 ### Instructions
  
